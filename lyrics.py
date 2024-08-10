@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 # importlib.metadata = metadata
 # from bertopic import BERTopic
 
-def preprocessing_lyrics(): #(song_data, playlist_num) 
+def preprocessing_lyrics(song_data, playlist_num): #(song_data, playlist_num) 
 
     with open('./static/track_list.json', 'r') as json_file:
         my_array = json.load(json_file)
