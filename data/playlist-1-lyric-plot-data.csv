@@ -1,0 +1,484 @@
+x,y,cluster,sentence,song-title,song-artist,cosine_simiarity_score,confidence_level
+-0.029093414479846796,-0.03219302745360251,teardrop-falling-keep,i carry this torn world like a weight,Earthing and Protection,Pram,-0.6320053900790276,0.9927090248414743
+-0.01953306922485036,-0.0071872610835074695,lovely-place-ticket,in my heart,Earthing and Protection,Pram,-0.9165635231207142,0.9976830767773046
+-0.024293832834185073,-0.013087794394820846,lovely-place-ticket,i nurse this infant world by day,Earthing and Protection,Pram,-0.8509704944854105,0.9901671290145487
+0.00013526323056482797,0.007430801889038982,lovely-place-ticket,in my arms,Earthing and Protection,Pram,-0.040605020172752804,0.978044720030791
+-0.0461950468604602,-0.0654577931379849,baby-day-analog,but when my love comes along,Earthing and Protection,Pram,-0.6119756090602334,0.9940018409800795
+-0.03330473878549339,0.05810183322361796,lovely-place-ticket,i find a haven in my eyes,Earthing and Protection,Pram,-0.54744468178389,0.9812825939846308
+-0.04619504686046019,-0.06545779313798487,baby-day-analog,and when my love comes along,Earthing and Protection,Pram,-0.6119756090602335,0.9940018409800796
+-0.018886617116930512,0.06600438836830001,lovely-place-ticket,i find a haven in his arms,Earthing and Protection,Pram,-0.331140604613533,0.9681604402329669
+-0.03133277212100626,-0.01081709100540705,analog-together-could,at night i can be free to care for just two,Earthing and Protection,Pram,0.9996333753397025,0.9856301746643642
+-0.02685013307870902,-0.014633326702195176,lovely-place-ticket,the world is far away,Earthing and Protection,Pram,-0.8484144288125436,0.9873243971155828
+-0.01380592801934393,-0.0032482434111526814,lovely-place-ticket,and innocently blueed,Earthing and Protection,Pram,-0.9582743353199706,0.9953453866716697
+-0.01215915933275389,-0.0027867508981097044,lovely-place-ticket,,Earthing and Protection,Pram,-0.9599099225491918,0.993686404077177
+-0.11211036380921933,0.7328940650874399,feel-see-get,ill be seeing you,I'll Be Seeing You,Billie Holiday,0.9989762343306584,1.0
+-0.021115935103672673,-0.011438956563813097,lovely-place-ticket,in all the old familiar places,I'll Be Seeing You,Billie Holiday,-0.8497516034268292,0.9933355172277941
+-0.022359425978187762,-0.015016797653675092,lovely-place-ticket,that this heart of mine embraces,I'll Be Seeing You,Billie Holiday,-0.7959422697255428,0.9896188993813334
+-0.028082830676983098,-0.017570659104700872,lovely-place-ticket,all day and through,I'll Be Seeing You,Billie Holiday,-0.815096779664557,0.9873476865685786
+-0.013805904084201886,-0.0032486111137462075,lovely-place-ticket,in that small caf,I'll Be Seeing You,Billie Holiday,-0.9582670106492263,0.9953455520615673
+-0.028668785446385795,0.03507629865590325,dont-one-need,the park across the way,I'll Be Seeing You,Billie Holiday,0.010640473864744229,0.9897958824787819
+-0.013805945314762896,-0.003248367185040987,lovely-place-ticket,the childrens carousel,I'll Be Seeing You,Billie Holiday,-0.9582719868266342,0.9953454640829191
+-0.016005123632996273,-0.0034411238585605702,lovely-place-ticket,the chestnut trees the wishing well,I'll Be Seeing You,Billie Holiday,-0.963612097274048,0.9971666839533357
+-0.11211036380921933,0.7328940650874399,feel-see-get,ill be seeing you,I'll Be Seeing You,Billie Holiday,0.9989762343306584,1.0
+-0.03865044325139602,-0.03011437293840666,lovely-place-ticket,in every lovely summers day,I'll Be Seeing You,Billie Holiday,-0.7513354678058919,0.9960192006989441
+-0.037712158076886264,0.008022951196672233,teardrop-falling-keep,in everything thats light and gay,I'll Be Seeing You,Billie Holiday,0.35359296940416274,0.9761721081524155
+-0.08833536880368303,0.4020400383036352,dont-one-need,ill always think of you that way,I'll Be Seeing You,Billie Holiday,-0.44241975707723175,0.9780121677481579
+-0.07795013256605066,0.4042349099827758,feel-see-get,ill find you in the morning sun,I'll Be Seeing You,Billie Holiday,0.9999785441379154,0.9791520759228047
+-0.05423069603390953,-0.016037363790479195,analog-together-could,and when the night is new,I'll Be Seeing You,Billie Holiday,0.9998413728774728,0.9776878893506307
+-0.07275379290295458,0.4118190069474986,feel-see-get,ill be looking at the moon,I'll Be Seeing You,Billie Holiday,0.9997539004722743,0.9715645860811225
+-0.11211036380921933,0.7328940650874399,feel-see-get,but ill be seeing you,I'll Be Seeing You,Billie Holiday,0.9989762343306584,1.0
+-0.11211036380921933,0.7328940650874399,feel-see-get,ill be seeing you,I'll Be Seeing You,Billie Holiday,0.9989762343306584,1.0
+-0.03865044325139602,-0.03011437293840666,lovely-place-ticket,in every lovely summers day,I'll Be Seeing You,Billie Holiday,-0.7513354678058919,0.9960192006989441
+-0.037712158076886264,0.008022951196672233,teardrop-falling-keep,in everything thats light and gay,I'll Be Seeing You,Billie Holiday,0.35359296940416274,0.9761721081524155
+-0.08833536880368303,0.4020400383036352,dont-one-need,ill always think of you that way,I'll Be Seeing You,Billie Holiday,-0.44241975707723175,0.9780121677481579
+-0.07795013256605066,0.4042349099827758,feel-see-get,ill find you in the morning sun,I'll Be Seeing You,Billie Holiday,0.9999785441379154,0.9791520759228047
+-0.05423069603390953,-0.016037363790479195,analog-together-could,and when the night is new,I'll Be Seeing You,Billie Holiday,0.9998413728774728,0.9776878893506307
+-0.07275379290295458,0.4118190069474986,feel-see-get,ill be looking at the moon,I'll Be Seeing You,Billie Holiday,0.9997539004722743,0.9715645860811225
+-0.09259879498202109,0.588706751026108,feel-see-get,but ill be seeing youed,I'll Be Seeing You,Billie Holiday,0.9991582804308718,0.9910024147933061
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,I'll Be Seeing You,Billie Holiday,-0.9599099225491918,0.993686404077177
+-0.015216330738821055,-0.0036125072445960297,lovely-place-ticket,angel,No One's Boy,Marcy Playground,-0.9576954662880188,0.9967150970155827
+-0.017510043136220347,-0.00581904601967015,lovely-place-ticket,you missed your chance,No One's Boy,Marcy Playground,-0.9287902948492267,0.9996269250175914
+-0.013805914327401464,-0.0032478836883772,lovely-place-ticket,to be the prom queen,No One's Boy,Marcy Playground,-0.9582813292300371,0.9953451930357583
+-0.013805919061740607,-0.003247828081125697,lovely-place-ticket,and so you turned,No One's Boy,Marcy Playground,-0.958282441947727,0.9953451689744198
+-0.022572833914319745,-0.014644641745877911,lovely-place-ticket,into a wet dream,No One's Boy,Marcy Playground,-0.8054693674265176,0.9898527700469378
+-0.013805935811850356,-0.003248685226692391,lovely-place-ticket,star of your own video,No One's Boy,Marcy Playground,-0.9582657030019511,0.9953456167335617
+-0.03353709796179515,-0.009729775476327843,analog-together-could,late night show on the floor,No One's Boy,Marcy Playground,0.9997361095309244,0.9838896469745638
+-0.031334460458961065,-0.04775168839516798,teardrop-falling-keep,a bad girl,No One's Boy,Marcy Playground,-0.7434973814689753,0.9806810888069336
+-0.048863787273154005,-0.046613933882603334,lovely-place-ticket,no ones watching,No One's Boy,Marcy Playground,-0.6817417400668029,0.9870669153182642
+-0.013805975022486537,-0.0032486501109475624,lovely-place-ticket,as you slow move,No One's Boy,Marcy Playground,-0.9582665730187457,0.9953456325989133
+-0.01380592224121146,-0.0032482100596285045,lovely-place-ticket,to the rhythm,No One's Boy,Marcy Playground,-0.9582749629657962,0.9953453648541192
+-0.014765980855244703,-0.003993830709499108,lovely-place-ticket,of this sweet sound,No One's Boy,Marcy Playground,-0.9482963804962302,0.9965427676637963
+-0.013805868899703708,-0.00324875677819304,lovely-place-ticket,booming through the radio,No One's Boy,Marcy Playground,-0.9582639901701576,0.9953455955365139
+-0.033537097956306335,-0.009729775489865757,analog-together-could,late night show that they ignore,No One's Boy,Marcy Playground,0.9997361095404836,0.9838896469764165
+-0.015191635262244573,-0.004591255271051047,lovely-place-ticket,are you lonely,No One's Boy,Marcy Playground,-0.9385774797735187,0.997177824906158
+-0.08021862783166825,-0.09855786856955497,teardrop-falling-keep,cause im no ones boy,No One's Boy,Marcy Playground,-0.6712025008436514,0.980069464946314
+-0.09300187147663083,-0.1071687742573366,teardrop-falling-keep,im no ones boy,No One's Boy,Marcy Playground,-0.6474713890503419,0.9760839749033248
+-0.0888081250394262,0.5357150908992052,feel-see-get,and ill be all you need,No One's Boy,Marcy Playground,0.999463264133032,0.9517169087989239
+-0.013805914234686975,-0.003247632791897983,lovely-place-ticket,only if you plead,No One's Boy,Marcy Playground,-0.9582862506404979,0.995345066076064
+-0.02127049709557028,-0.006341961422694242,lovely-place-ticket,pray do,No One's Boy,Marcy Playground,-0.9398576791554346,0.9964851076336708
+-0.015216330746121248,-0.003612507193263197,lovely-place-ticket,angel blue,No One's Boy,Marcy Playground,-0.9576954672380958,0.9967150969901607
+-0.03974054475588695,-0.0551418954644363,teardrop-falling-keep,if youll be my girl,No One's Boy,Marcy Playground,-0.7135289983342473,0.9916447689260482
+-0.03974054475588695,-0.0551418954644363,teardrop-falling-keep,if youll be my girl,No One's Boy,Marcy Playground,-0.7135289983342473,0.9916447689260482
+-0.09300187147663083,-0.1071687742573366,teardrop-falling-keep,im no ones boy,No One's Boy,Marcy Playground,-0.6474713890503419,0.9760839749033248
+-0.09300187147663083,-0.1071687742573366,teardrop-falling-keep,im no ones boy,No One's Boy,Marcy Playground,-0.6474713890503419,0.9760839749033248
+-0.0888081250394262,0.5357150908992052,feel-see-get,and ill be all you need,No One's Boy,Marcy Playground,0.999463264133032,0.9517169087989239
+-0.021559861168335307,-0.010714033209759657,lovely-place-ticket,only if youll bleed,No One's Boy,Marcy Playground,-0.8678109034936228,0.9937017767665736
+-0.02127049709557028,-0.006341961422694242,lovely-place-ticket,pray do,No One's Boy,Marcy Playground,-0.9398576791554346,0.9964851076336708
+0.0017694255197164919,-0.08990891902502993,seeing-ill-country,ehey hey dont walk away from me,No One's Boy,Marcy Playground,-0.9610910760753962,0.9648357667999929
+-0.013805912145576443,-0.003248952263235042,lovely-place-ticket,i found you,No One's Boy,Marcy Playground,-0.9582603541779289,0.9953457314398528
+-0.030922579926557447,0.06228292469875436,lovely-place-ticket,i can find youd,No One's Boy,Marcy Playground,-0.4965758686275129,0.9767158916143673
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,No One's Boy,Marcy Playground,-0.9599099225491918,0.993686404077177
+-0.015972737331084046,-0.003912390883281703,lovely-place-ticket,travelling swallowing dramamine,Dramamine,Modest Mouse,-0.9556228175368965,0.9974853461224085
+-0.01319553193455052,-0.008047451205232984,lovely-place-ticket,feeling spaced breathing out listerine,Dramamine,Modest Mouse,-0.8216728076674713,0.9947859338953173
+-0.02516583196615621,0.023930480804285104,lovely-place-ticket,id said what id said that id tell ya,Dramamine,Modest Mouse,-0.7639237506992671,0.9799592734290694
+-0.01862575160594812,-0.0011207727827035128,lovely-place-ticket,and that youd killed the better part of me,Dramamine,Modest Mouse,-0.9929375778326816,0.9954420992186624
+-0.03455702380742246,-0.005294964501792034,man-pray-said,if you could just milk it for everything,Dramamine,Modest Mouse,-0.9985094023940059,0.9834036956903677
+-0.017979127498586118,-0.02036178706823449,lovely-place-ticket,ive said what id said and you know what i mean,Dramamine,Modest Mouse,-0.6166787495320075,0.9853638590835693
+-0.01943469901968319,-0.0054993331065883175,lovely-place-ticket,but i still cant focus on anything,Dramamine,Modest Mouse,-0.9445506284308721,0.9983867966260092
+-0.015743617422686856,-0.004157364665868851,lovely-place-ticket,we kiss on the mouth but still cough down our sleeves,Dramamine,Modest Mouse,-0.9501777541839236,0.9974606487723321
+-0.015972737331084046,-0.003912390883281703,lovely-place-ticket,travelling swallowing dramamine,Dramamine,Modest Mouse,-0.9556228175368965,0.9974853461224085
+-0.0478835137886304,-0.04590907213429752,teardrop-falling-keep,look at your face like youre killed in a dream,Dramamine,Modest Mouse,-0.5749617458747353,0.9864817595572157
+-0.027662213967795914,0.03270453681274436,lovely-place-ticket,and you think youve figured out everything,Dramamine,Modest Mouse,-0.6895595314720186,0.987731577309964
+-0.018334705650429346,0.010375637612397336,lovely-place-ticket,i think i know my geography pretty damn well,Dramamine,Modest Mouse,-0.8977539874902383,0.9841252909584411
+-0.049085799667250296,0.043141164048632115,lovely-place-ticket,you say what you need so youll get more,Dramamine,Modest Mouse,-0.7886332286428023,0.98828367320251
+-0.03455702380742246,-0.005294964501792034,man-pray-said,if you could just milk it for everything,Dramamine,Modest Mouse,-0.9985094023940059,0.9834036956903677
+-0.014047331773753181,-0.0329147354131419,lovely-place-ticket,ive said what i said and you know what i mean,Dramamine,Modest Mouse,-0.3377822379288773,0.9785622964136255
+-0.012372731956088805,-0.014710106919909207,new-night-im,but i still cant focus on anythingsee modest mouse liveget tickets as low as ed,Dramamine,Modest Mouse,-0.6453472779438447,0.9894548723197641
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Dramamine,Modest Mouse,-0.9599099225491918,0.993686404077177
+-0.04837363393742159,-0.0626271127513124,new-night-im,if i ever get to see you again,Keep Those Teardrops from Falling,Natalie Bergman,-0.6765713254404676,0.9965438414552128
+-0.07269313556050831,-0.1360152900029476,let-sunshine-go,i would never let you go my friend,Keep Those Teardrops from Falling,Natalie Bergman,-0.568868852942388,0.9802815679379473
+-0.04191444767355109,-0.032677370225149514,seeing-ill-country,i would take away the rain oohoohooh,Keep Those Teardrops from Falling,Natalie Bergman,-0.35474539646917314,0.9919161985008165
+-0.028894695315978637,-0.019745312221813312,lovely-place-ticket,and put a smile upon your face,Keep Those Teardrops from Falling,Natalie Bergman,-0.791043206190362,0.9895656818909224
+-0.06635101514925028,0.31940894884779497,lovely-place-ticket,and id keep those teardrops from falling,Keep Those Teardrops from Falling,Natalie Bergman,-0.26059156594828486,0.9374329307175044
+-0.02729500791536368,-0.02167556918317773,lovely-place-ticket,i admit ive been running around,Keep Those Teardrops from Falling,Natalie Bergman,-0.7451985472842045,0.9898523304504955
+-0.03841457393145128,0.04213800859503068,lovely-place-ticket,looking for something new,Keep Those Teardrops from Falling,Natalie Bergman,-0.7159784255970921,0.9975362730555952
+-0.02536705308936552,-0.012775797802612556,lovely-place-ticket,every city and every town,Keep Those Teardrops from Falling,Natalie Bergman,-0.8651381569352965,0.989655854404709
+0.10372117162796667,0.0131198940765377,lovely-place-ticket,baby nothing compares to you,Keep Those Teardrops from Falling,Natalie Bergman,0.983002233063397,0.9810894823903651
+-0.019436379802530695,-0.015119640991132357,lovely-place-ticket,it gets so lonely on the road oohooh,Keep Those Teardrops from Falling,Natalie Bergman,-0.7518458567667536,0.9904091958928851
+0.2520613502500945,0.016761741156652445,every-gon-na,want someone to hold me in their arms oohooh,Keep Those Teardrops from Falling,Natalie Bergman,0.1988515668348033,0.9506470017366146
+-0.0353808032142838,-0.04336316925160684,dont-one-need,but it never feels as good oohooh,Keep Those Teardrops from Falling,Natalie Bergman,0.9776440182190849,0.9848896590147065
+-0.010082432185287298,-0.012163964007217766,lovely-place-ticket,cause nothing nothing nothing compares to you,Keep Those Teardrops from Falling,Natalie Bergman,-0.5917962854060651,0.989912842087627
+-0.04837363393742159,-0.0626271127513124,new-night-im,if i ever get to see you again,Keep Those Teardrops from Falling,Natalie Bergman,-0.6765713254404676,0.9965438414552128
+-0.07676001180697867,-0.14865089899974637,let-sunshine-go,i would never let you go my friend never let you go,Keep Those Teardrops from Falling,Natalie Bergman,-0.5571656507397593,0.9675147794199036
+-0.05118290604840005,0.04950287514979017,seeing-ill-country,i would take away the rain no more teardrops will fall,Keep Those Teardrops from Falling,Natalie Bergman,0.8763649677299487,0.9835754913555427
+-0.028894695315978637,-0.019745312221813312,lovely-place-ticket,and put a smile upon your face,Keep Those Teardrops from Falling,Natalie Bergman,-0.791043206190362,0.9895656818909224
+-0.10577907735668127,0.6213412249840791,feel-see-get,and ill keep those teardrops from falling,Keep Those Teardrops from Falling,Natalie Bergman,0.9995961847732269,0.9628252235272833
+-0.1099241271331273,0.5921220774501808,feel-see-get,yes ill keep those teardrops from falling,Keep Those Teardrops from Falling,Natalie Bergman,0.9999089909235721,0.9873487190082813
+-0.042420874603227604,-0.013812650275951448,analog-together-could,each night i pray,Keep Those Teardrops from Falling,Natalie Bergman,0.9999554303019982,0.9840784821479435
+-0.023916329358307994,0.04935137372651587,lovely-place-ticket,when i wake up in the morning,Keep Those Teardrops from Falling,Natalie Bergman,-0.4882469172930216,0.9832618995460426
+-0.04590941310601013,-0.042686168094429086,seeing-ill-country,hell be right by my side again,Keep Those Teardrops from Falling,Natalie Bergman,-0.434500820804613,0.983311365270336
+-0.043349445210311775,-0.12028490814893535,lovely-place-ticket,bring back my sunshine please,Keep Those Teardrops from Falling,Natalie Bergman,-0.2831561300483143,0.9728721697435794
+-0.06154895872954243,-0.1963278518671975,baby-day-analog,please let me love him please,Keep Those Teardrops from Falling,Natalie Bergman,-0.34082687802659656,0.9225476355081789
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,e,Keep Those Teardrops from Falling,Natalie Bergman,-0.9599099225491918,0.993686404077177
+-0.04355148389218979,-0.054191830500539814,new-night-im,if i ever get to see you again ever ever get to see you babe,Keep Those Teardrops from Falling,Natalie Bergman,-0.6622514536659926,0.9937457170046888
+-0.0712767673242526,-0.13379943051717536,let-sunshine-go,i would never let you go my friend never never never let you go,Keep Those Teardrops from Falling,Natalie Bergman,-0.5677578170487566,0.9825550636888689
+-0.04191444767355109,-0.032677370225149514,seeing-ill-country,i would take away the rain oohoohooh,Keep Those Teardrops from Falling,Natalie Bergman,-0.35474539646917314,0.9919161985008165
+-0.028894695315978637,-0.019745312221813312,lovely-place-ticket,and put a smile upon your face,Keep Those Teardrops from Falling,Natalie Bergman,-0.791043206190362,0.9895656818909224
+-0.10577907735668127,0.6213412249840791,feel-see-get,and ill keep those teardrops from falling,Keep Those Teardrops from Falling,Natalie Bergman,0.9995961847732269,0.9628252235272833
+-0.1099241271331273,0.5921220774501808,feel-see-get,yes ill keep those teardrops from falling,Keep Those Teardrops from Falling,Natalie Bergman,0.9999089909235721,0.9873487190082813
+-0.06057664540215733,-0.13451878253137492,lovely-place-ticket,let the sunshine in,Keep Those Teardrops from Falling,Natalie Bergman,-0.3562987720188494,0.9793719944956711
+-0.06057664540215733,-0.13451878253137492,lovely-place-ticket,let the sunshine in,Keep Those Teardrops from Falling,Natalie Bergman,-0.3562987720188494,0.9793719944956711
+-0.06550102046705454,-0.12685325944420303,lovely-place-ticket,let the sunshine in my friend give it to me right now,Keep Those Teardrops from Falling,Natalie Bergman,-0.4057751516375906,0.988294270798036
+-0.06057664540215733,-0.13451878253137492,lovely-place-ticket,let the sunshine in,Keep Those Teardrops from Falling,Natalie Bergman,-0.3562987720188494,0.9793719944956711
+-0.06323052803008047,-0.12647601972276123,baby-day-analog,let the sunshine in wont you give me back my love,Keep Those Teardrops from Falling,Natalie Bergman,-0.4860813587500103,0.9874758662183567
+-0.05009637999513254,-0.10541117247235522,lovely-place-ticket,let the sunshine in my friendd,Keep Those Teardrops from Falling,Natalie Bergman,-0.3754042698624441,0.9771341669601977
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Keep Those Teardrops from Falling,Natalie Bergman,-0.9599099225491918,0.993686404077177
+-0.04458153336109211,0.03419849908248597,lovely-place-ticket,out on the water where youre gonna find me,Catamaran,Allah-Las,-0.827846583425525,0.9912738748827017
+-0.017898519644339764,-0.005618889186936609,lovely-place-ticket,all alone with my mind headed for a bounty,Catamaran,Allah-Las,-0.9348341265496717,0.9999260621236338
+-0.042751074737408794,-0.057109427444000285,lovely-place-ticket,ive been living so long all by myself,Catamaran,Allah-Las,-0.551178157896939,0.9952138145216145
+-0.030196777303659997,0.019672335109718997,lovely-place-ticket,i cant think of living with anybody else,Catamaran,Allah-Las,-0.8685181050364392,0.97876074500056
+-0.033413780597514146,-0.028784575673788615,teardrop-falling-keep,im an oysters pearl locked up in its a shell,Catamaran,Allah-Las,-0.5306064810366914,0.9981161841636662
+-0.021139797837958208,-0.01419121019531275,lovely-place-ticket,you better bring that diving bell,Catamaran,Allah-Las,-0.7960700324089478,0.9908505087339353
+0.43314491654380083,0.02605887515205612,every-gon-na,but i want you near,Catamaran,Allah-Las,0.20503282454890148,0.9460301752251452
+0.3407078353112587,0.020042600330144638,every-gon-na,i want to whisper to your ear,Catamaran,Allah-Las,0.20633532420106904,0.9628009634345088
+0.3577868748893836,0.021440856530988567,every-gon-na,i want to hold your hand,Catamaran,Allah-Las,0.205262671547566,0.9790002765974408
+0.4850969822718971,0.028335122920701023,every-gon-na,i want to be your man,Catamaran,Allah-Las,0.2067400852218128,0.9505566564571144
+-0.03616061117545878,0.03544230715521209,lovely-place-ticket,out on the river where youre gonna find me,Catamaran,Allah-Las,-0.7540764513006097,0.9954025327299841
+-0.024635004669841712,-0.010281235591589192,lovely-place-ticket,all alone with my thoughts headed for a bounty,Catamaran,Allah-Las,-0.8986192855569233,0.9917801870376888
+-0.038274149384440244,-0.04890648273100254,lovely-place-ticket,ive been living so long in a habitat,Catamaran,Allah-Las,-0.5689452628635724,0.9864309950241024
+-0.016173917359744452,-0.013765334681492795,lovely-place-ticket,where the lands mighty rocky but the river stays flat,Catamaran,Allah-Las,-0.7221165403314975,0.9917218724895022
+-0.021903295380914466,-0.0019841606222716747,lovely-place-ticket,can you show me something we can part with that,Catamaran,Allah-Las,-0.9888965605926574,0.994552036804744
+0.43314491654380083,0.02605887515205612,every-gon-na,but i want you near,Catamaran,Allah-Las,0.20503282454890148,0.9460301752251452
+0.3407078353112587,0.020042600330144638,every-gon-na,i want to whisper to your ear,Catamaran,Allah-Las,0.20633532420106904,0.9628009634345088
+0.3577868748893836,0.021440856530988567,every-gon-na,i want to hold your hand,Catamaran,Allah-Las,0.205262671547566,0.9790002765974408
+0.4850969822718971,0.028335122920701023,every-gon-na,i want to be your man,Catamaran,Allah-Las,0.2067400852218128,0.9505566564571144
+-0.07092330297271499,-0.07168602264396001,teardrop-falling-keep,im gonna get you girl,Catamaran,Allah-Las,-0.596355878948636,0.9734324211316681
+-0.039715180968231255,-0.060172559516501245,teardrop-falling-keep,like i got you,Catamaran,Allah-Las,-0.7417095720412753,0.99278944146137
+-0.013806099392699691,-0.003247760341227865,lovely-place-ticket,wrap you up in paper bite you,Catamaran,Allah-Las,-0.9582846029845964,0.9953452893159519
+-0.030380953454169753,-0.0148261654952538,lovely-place-ticket,youre the pretty little thing that i gotta have,Catamaran,Allah-Las,-0.8713615601852018,0.9859466918679433
+0.17143817154102642,-0.009420676986314946,new-night-im,cause i want itsee allahlas liveget tickets as low as ed,Catamaran,Allah-Las,-0.22301603204918347,0.9239946301316025
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Catamaran,Allah-Las,-0.9599099225491918,0.993686404077177
+-0.01554274333004411,-0.0037268428737852553,lovely-place-ticket,its late in the evening shes wondering what clothes to wear,Wonderful Tonight - Live,Eric Clapton,-0.9570476467129914,0.9970405454652695
+-0.026928794313715938,-0.03861990093844302,lovely-place-ticket,she puts on her makeup and brushes her long blonde hair,Wonderful Tonight - Live,Eric Clapton,-0.5227548606073,0.9867460285709706
+-0.037703965533651004,-0.03266711894273929,seeing-ill-country,and then she asks me do i look all right,Wonderful Tonight - Live,Eric Clapton,-0.4026369691171992,0.9948317433565637
+-0.04833432354391259,0.02523667076449556,lovely-place-ticket,and i say yes you look wonderful tonight,Wonderful Tonight - Live,Eric Clapton,-0.9121178784488433,0.9822263354709593
+-0.04081467302321483,-0.058538153511118796,let-sunshine-go,we go to a party and everyone turns to see,Wonderful Tonight - Live,Eric Clapton,-0.6617651005445534,0.9938415187100047
+-0.02333977417132772,0.0056181030347332754,lovely-place-ticket,this beautiful lady thats walking around with me,Wonderful Tonight - Live,Eric Clapton,-0.9843061236589706,0.9875610664470666
+-0.046671789401886286,-0.03682449730483887,dont-one-need,and then she asks me do you feel all right,Wonderful Tonight - Live,Eric Clapton,0.9999784000869361,0.9857024703365582
+-0.05555750668780453,0.023916521258463982,dont-one-need,and i say yes i feel wonderful tonight,Wonderful Tonight - Live,Eric Clapton,0.4703744967788455,0.9764891145335919
+-0.05130483632925819,-0.04986258330200839,dont-one-need,i feel wonderful because i see,Wonderful Tonight - Live,Eric Clapton,0.995341048644038,0.9894806990025541
+-0.049839171800083557,-0.05246396935672828,baby-day-analog,the love light in your eyes,Wonderful Tonight - Live,Eric Clapton,-0.7199613093095687,0.9924245182298108
+-0.0138060145528412,-0.003248455191268482,lovely-place-ticket,and the wonder of it all,Wonderful Tonight - Live,Eric Clapton,-0.9582705798184524,0.9953455679419292
+0.012776027509543392,-0.11909683720878181,baby-day-analog,is that you just dont realize how much i love you,Wonderful Tonight - Live,Eric Clapton,0.06282436758194994,0.9809292260338582
+-0.03877890904250089,-0.06159653460606192,let-sunshine-go,its time to go home now and ive got an aching head,Wonderful Tonight - Live,Eric Clapton,-0.6258172090411277,0.9916256917400591
+-0.018108236766299284,-0.011782319008356901,lovely-place-ticket,so i give her the car keys and she helps me to bed,Wonderful Tonight - Live,Eric Clapton,-0.8046819204709955,0.9938484477017671
+-0.0288934842203033,0.007888745006143253,lovely-place-ticket,and then i tell her as i turn out the light,Wonderful Tonight - Live,Eric Clapton,-0.9785046528601773,0.9826884744946449
+-0.03270873992537765,-0.010889207155970134,lovely-place-ticket,i say my darling you were wonderful tonight,Wonderful Tonight - Live,Eric Clapton,-0.928593922426847,0.9843341135548365
+-0.01598672006242862,-0.021614551288840576,new-night-im,oh my darling you were wonderful tonightsee eric clapton liveget tickets as low as ed,Wonderful Tonight - Live,Eric Clapton,-0.6917827448746278,0.984027443169916
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Wonderful Tonight - Live,Eric Clapton,-0.9599099225491918,0.993686404077177
+0.002862650749889885,-0.11245775078019189,teardrop-falling-keep,girls like me dont fall easily,You Sent Me Flying / Cherry,Amy Winehouse,-0.9920293490207299,0.9728026646291944
+-0.013030382775866321,-0.008765071714049236,lovely-place-ticket,we catch flights not feelings,You Sent Me Flying / Cherry,Amy Winehouse,-0.7955021718158686,0.9942817306394086
+-0.022835011043009786,-0.011670900260497883,lovely-place-ticket,we were raised on living freely,You Sent Me Flying / Cherry,Amy Winehouse,-0.8621477382626501,0.9921734046204663
+-0.019533069224850326,-0.007187261083507125,lovely-place-ticket,so how is this a heart,You Sent Me Flying / Cherry,Amy Winehouse,-0.9165635231207201,0.9976830767773048
+-0.013805983543123006,-0.003248176888694973,lovely-place-ticket,you were capable of stealing,You Sent Me Flying / Cherry,Amy Winehouse,-0.9582758966885168,0.995345400638305
+-0.05301636933106578,-0.10106716096045375,teardrop-falling-keep,girls like me,You Sent Me Flying / Cherry,Amy Winehouse,-0.8051314625813221,0.9770957374185777
+-0.03794893908658769,-0.06277784322828348,teardrop-falling-keep,oh girls oh girls,You Sent Me Flying / Cherry,Amy Winehouse,-0.7677261269687253,0.990490114408408
+-0.04949379323447512,-0.09074541719398338,teardrop-falling-keep,oh girls like me,You Sent Me Flying / Cherry,Amy Winehouse,-0.7954127824707293,0.9691208529248673
+-0.04198533918090311,-0.07365493582620926,teardrop-falling-keep,oh girls girls girls,You Sent Me Flying / Cherry,Amy Winehouse,-0.7838949252333663,0.9851079710688488
+-0.0385767447493013,-0.04970912614206096,teardrop-falling-keep,times like these seem handmade for the two of us,You Sent Me Flying / Cherry,Amy Winehouse,-0.6882239432204577,0.9872304022908741
+-0.0279776428902359,-0.009341263796023087,analog-together-could,nashville nights two headlights at the top of a hill,You Sent Me Flying / Cherry,Amy Winehouse,0.9998571405772287,0.9892441428090128
+-0.0331852251121801,-0.04445836598963252,let-sunshine-go,so how did it go from that to you saying this is it for us,You Sent Me Flying / Cherry,Amy Winehouse,-0.6856670431409946,0.9836927122566769
+-0.031771957677176534,-0.03707435338754342,teardrop-falling-keep,you drove away like an easy play,You Sent Me Flying / Cherry,Amy Winehouse,-0.652191304336789,0.9904802510613964
+-0.015458137537872426,-0.005818994352841681,lovely-place-ticket,beat me at my own game,You Sent Me Flying / Cherry,Amy Winehouse,-0.913558900980303,0.9976278782342881
+-0.04077281255914696,-0.01452668761315395,find-life-side,so if youre really gonna say its nothing,You Sent Me Flying / Cherry,Amy Winehouse,-0.9327385306575824,0.9853934985579719
+-0.035211756678279596,-0.028042796329365405,girl-want-like,throw me out of your life real fast,You Sent Me Flying / Cherry,Amy Winehouse,0.9735735172681464,0.9999004696888465
+-0.03246349527898036,-0.05387544447113094,lovely-place-ticket,at least let me have the last laugh,You Sent Me Flying / Cherry,Amy Winehouse,-0.464869040031644,0.9846135798557346
+-0.007483377381950133,-0.12786155556241138,teardrop-falling-keep,girls like me dont like losing,You Sent Me Flying / Cherry,Amy Winehouse,-0.9779780950205612,0.9595134690393893
+-0.03749071121211493,-0.011469191624261568,man-pray-said,something they thought they could win,You Sent Me Flying / Cherry,Amy Winehouse,-0.9801765813814352,0.9833125756227631
+-0.015370903887208956,-0.0037723375693316974,find-life-side,you hurt my pride,You Sent Me Flying / Cherry,Amy Winehouse,-0.9644971738397156,0.9969341916601673
+-0.015371092075778223,-0.0037713582612029393,find-life-side,sent me flying,You Sent Me Flying / Cherry,Amy Winehouse,-0.9645137904153291,0.9969337545103413
+-0.020964003082711076,0.00561069220445253,lovely-place-ticket,eleaving town fast with the wind again,You Sent Me Flying / Cherry,Amy Winehouse,-0.9795288925428557,0.9884081198004099
+-0.026089289865858664,-0.012127577266989905,lovely-place-ticket,thought that this was different,You Sent Me Flying / Cherry,Amy Winehouse,-0.8804667054562176,0.9895348683531144
+-0.014565040976465774,-0.004356847101904751,lovely-place-ticket,but it ends up the same as usual,You Sent Me Flying / Cherry,Amy Winehouse,-0.9395522404267287,0.9965109834892482
+-0.025550694393681895,-0.030024535587227442,teardrop-falling-keep,i wouldnt mind at all if you didnt act like,You Sent Me Flying / Cherry,Amy Winehouse,-0.6548112435808421,0.9902305843486086
+-0.015527671957328529,-0.005562047888852675,lovely-place-ticket,i was overstaying my welcome,You Sent Me Flying / Cherry,Amy Winehouse,-0.919974677429099,0.9977050394660126
+-0.050437511827367644,-0.016419694629504326,analog-together-could,the very same night,You Sent Me Flying / Cherry,Amy Winehouse,0.9999559788040076,0.9809493130666208
+-0.07258275921986809,-0.06534715218211565,teardrop-falling-keep,thats what im like,You Sent Me Flying / Cherry,Amy Winehouse,-0.549023030117966,0.9740189220337141
+0.2471839480393076,0.01196839908573658,every-gon-na,it doesnt mean i want a boyfriend,You Sent Me Flying / Cherry,Amy Winehouse,0.21647814953454508,0.9498110753870647
+-0.024507170272852343,0.044528273602847133,lovely-place-ticket,did you think you were a godsend,You Sent Me Flying / Cherry,Amy Winehouse,-0.5328347500930203,0.9859745024306741
+-0.013805948079450228,-0.0032475552531993543,lovely-place-ticket,wheres the respect,You Sent Me Flying / Cherry,Amy Winehouse,-0.958287927838092,0.9953450558767685
+-0.029232440974266756,-0.041869040823243844,lovely-place-ticket,i was your friend,You Sent Me Flying / Cherry,Amy Winehouse,-0.5232764228852027,0.9851462123335529
+0.03973096099622121,-0.07677401492345697,baby-day-analog,i dont have hard feelings,You Sent Me Flying / Cherry,Amy Winehouse,0.4200984045599614,0.9647999783516725
+-0.017044756156499107,-0.00469235828925458,lovely-place-ticket,but i still cried when you were leaving,You Sent Me Flying / Cherry,Amy Winehouse,-0.9468627205586936,0.9987901627095286
+-0.027613451046479883,-0.04343646613813058,teardrop-falling-keep,so even though you know im lying,You Sent Me Flying / Cherry,Amy Winehouse,-0.7530808626412915,0.9830757807148788
+-0.05244305600393108,-0.001705336202362635,teardrop-falling-keep,im always gonna carry on denying,You Sent Me Flying / Cherry,Amy Winehouse,0.11900363028861048,0.9689248158349263
+-0.02878103681704197,-0.03876059438079521,teardrop-falling-keep,you changed the game like you did,You Sent Me Flying / Cherry,Amy Winehouse,-0.7034914157581941,0.9876734438622431
+-0.047943472462263374,-0.0742867922705601,lovely-place-ticket,cause boys never do,You Sent Me Flying / Cherry,Amy Winehouse,-0.4919305990463598,0.9852726392834239
+0.00024209719889559445,-0.0036478308827722016,lovely-place-ticket,i made a fool of myself running after you,You Sent Me Flying / Cherry,Amy Winehouse,0.1247615286697263,0.9819903318102157
+-0.03266046435330241,-0.03886403283369466,lovely-place-ticket,i never run after anybody,You Sent Me Flying / Cherry,Amy Winehouse,-0.5972467543297355,0.9890420218256296
+-0.06760280155394263,0.31013342867389393,lovely-place-ticket,thats what ill tell em,You Sent Me Flying / Cherry,Amy Winehouse,-0.27004494579236077,0.9290219312752377
+-0.01829330493456249,-0.006189795469177633,lovely-place-ticket,not after anybody,You Sent Me Flying / Cherry,Amy Winehouse,-0.9267651899065419,0.999261139183781
+-0.02973689189737128,-0.01310231203642075,find-life-side,how you really gonna say its nothing its nothing,You Sent Me Flying / Cherry,Amy Winehouse,-0.9040623197816295,0.9860303136941289
+-0.019218488105815557,-0.0009246922288936003,lovely-place-ticket,i felt something,You Sent Me Flying / Cherry,Amy Winehouse,-0.9942921817402449,0.995115759555
+0.01943050230629856,-0.09148411270256007,teardrop-falling-keep,but i dont like being left behind,You Sent Me Flying / Cherry,Amy Winehouse,-0.9983479386262561,0.9775323304246717
+-0.018206168575766218,-0.004990659716564721,find-life-side,you hurt my pride really sent me flying,You Sent Me Flying / Cherry,Amy Winehouse,-0.9570499041485013,0.999265742709628
+-0.017044756168214215,-0.004692358775741241,lovely-place-ticket,i still cried when you were leavingd,You Sent Me Flying / Cherry,Amy Winehouse,-0.9468627120818913,0.9987901630887167
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,You Sent Me Flying / Cherry,Amy Winehouse,-0.9599099225491918,0.993686404077177
+-0.041799282444515896,-0.0344520937653119,teardrop-falling-keep,im going to answer protected,Imagining My Man,Aldous Harding,-0.5120306096629801,0.990898228670097
+-0.012326465962737477,-0.009680749506020363,lovely-place-ticket,it can be so hard to forgive,Imagining My Man,Aldous Harding,-0.7487850412106052,0.9931871709211104
+-0.013805964233480735,-0.0032482909571421473,lovely-place-ticket,its not what i sought and its not what i pictured,Imagining My Man,Aldous Harding,-0.9582735696819172,0.9953454417605755
+0.07255899250335228,0.0013183245773492483,every-gon-na,when i was imagining my man,Imagining My Man,Aldous Harding,0.24587261120778703,0.9797192541287835
+-0.03135196935360378,-0.02829855006869535,seeing-ill-country,you are so nervous all of the time living the classics,Imagining My Man,Aldous Harding,-0.4211434456570424,0.996170663314438
+0.06810263950853178,-0.016959441699892542,every-gon-na,i know that imagining my man,Imagining My Man,Aldous Harding,0.48874456890555523,0.971857665862086
+0.04765732243587733,-0.0003893010777667948,every-gon-na,imagining imagining my man,Imagining My Man,Aldous Harding,0.2713115353582202,0.9559150778359905
+-0.08094259920692815,-0.09773366524169015,seeing-ill-country,all my life hey ive had to fight to stay,Imagining My Man,Aldous Harding,-0.5476467246709643,0.9790194088548495
+-0.09117557606056392,-0.1287303121919919,seeing-ill-country,you were right love takes time hey hey,Imagining My Man,Aldous Harding,-0.6091545975842388,0.9761627556366427
+-0.0429600089919146,-0.04079495080095566,teardrop-falling-keep,you have this dream apparently im not done,Imagining My Man,Aldous Harding,-0.5710310612995695,0.9852563220106735
+-0.016395211413423746,-0.008271180336401389,lovely-place-ticket,i leave and its dreadful,Imagining My Man,Aldous Harding,-0.8647979752826987,0.9969910794222702
+-0.036017301772098886,-0.023690943339514894,lovely-place-ticket,if you get down,Imagining My Man,Aldous Harding,-0.8017180316303992,0.9954852644678083
+-0.013805938991870714,-0.003247829530364685,lovely-place-ticket,be honest respectful,Imagining My Man,Aldous Harding,-0.9582825054938979,0.9953451867936136
+-0.07522910163201461,-0.0982579850968668,seeing-ill-country,all my life hey i never tried to stay,Imagining My Man,Aldous Harding,-0.5792588594016156,0.9816137665938172
+-0.09117557606056392,-0.1287303121919919,seeing-ill-country,you were right love takes time hey hey,Imagining My Man,Aldous Harding,-0.6091545975842388,0.9761627556366427
+-0.06245459437557443,-0.01461554955401654,dont-one-need,i hope one day well get that way,Imagining My Man,Aldous Harding,0.9027422084325649,0.9700202807735334
+-0.01694375076755986,-0.005380332780239392,lovely-place-ticket,lucky to be given the chance,Imagining My Man,Aldous Harding,-0.9336632928587545,0.9990880089360661
+-0.016826830827302835,-0.006349440008631905,lovely-place-ticket,i do not have the answer,Imagining My Man,Aldous Harding,-0.9132364855040954,0.9987637986711598
+0.014548457831942129,-0.10127959653417043,let-sunshine-go,but i dont have the wish to go back,Imagining My Man,Aldous Harding,0.028361842960865174,0.9813685881389466
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,e,Imagining My Man,Aldous Harding,-0.9599099225491918,0.993686404077177
+-0.08094259920692815,-0.09773366524169015,seeing-ill-country,all my life hey ive had to fight to stay,Imagining My Man,Aldous Harding,-0.5476467246709643,0.9790194088548495
+-0.0972692655849089,-0.09008211855180814,seeing-ill-country,you were right yes love takes time hey hey,Imagining My Man,Aldous Harding,-0.43271885897492063,0.963314525604266
+-0.08094259920692815,-0.09773366524169015,seeing-ill-country,all my life hey ive had to fight to stay,Imagining My Man,Aldous Harding,-0.5476467246709643,0.9790194088548495
+-0.08381994380338717,-0.1166653229843191,seeing-ill-country,you were right love takes time hey heyd,Imagining My Man,Aldous Harding,-0.6037814200321059,0.9868095142697213
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Imagining My Man,Aldous Harding,-0.9599099225491918,0.993686404077177
+0.034153848156220745,-0.14321957953862996,baby-day-analog,please dont frown at me,Sleep A Million Years,Kathy Heideman,0.1889568883135987,0.9684467485240911
+-0.01985029356859097,-0.009185560575021519,lovely-place-ticket,when you can smile,Sleep A Million Years,Kathy Heideman,-0.8812875193973622,0.9959060961746729
+-0.01380593708485117,-0.003249103120914337,lovely-place-ticket,our eternity is just a while,Sleep A Million Years,Kathy Heideman,-0.9582575092251314,0.9953458290831019
+0.05002316071125251,-0.08948483661938102,baby-day-analog,dont you know that later on,Sleep A Million Years,Kathy Heideman,0.4490810485411219,0.9710387784395405
+-0.028196598502662408,-0.007795229377870522,lovely-place-ticket,were going to sleep a million years,Sleep A Million Years,Kathy Heideman,-0.9465143724952786,0.9894579518849135
+0.021624998404454067,-0.15906690341274163,dont-one-need,please dont be to what you feel,Sleep A Million Years,Kathy Heideman,0.5136689174590519,0.9526632526360311
+-0.020219942072957884,-0.008597835499496876,lovely-place-ticket,the world is yours if you are real,Sleep A Million Years,Kathy Heideman,-0.895665701106496,0.9961842842550054
+0.07356997744286924,-0.11886832928821854,baby-day-analog,dont you know that after a while,Sleep A Million Years,Kathy Heideman,0.4883651723023842,0.9571453779048498
+-0.028196598502662408,-0.007795229377870522,lovely-place-ticket,were going to sleep a million years,Sleep A Million Years,Kathy Heideman,-0.9465143724952786,0.9894579518849135
+0.0044488815556771545,-0.13081723050439045,baby-day-analog,dont let your lips say no,Sleep A Million Years,Kathy Heideman,-0.0100043935343209,0.9680827326428182
+-0.0539494414905292,0.05224351254723716,dont-one-need,when you feel yes,Sleep A Million Years,Kathy Heideman,0.12654478544555628,0.9797878474167347
+-0.0231373279958074,-0.007563035036353048,lovely-place-ticket,i just might turn from you,Sleep A Million Years,Kathy Heideman,-0.9306010360823087,0.9943584736460862
+-0.02389516117295132,-0.014709570930288232,lovely-place-ticket,if i must guess,Sleep A Million Years,Kathy Heideman,-0.8192929098673241,0.9891277777092136
+0.044933136513313966,-0.08078291021967691,baby-day-analog,when we dont live our truth,Sleep A Million Years,Kathy Heideman,0.44717717345876956,0.9667035492380167
+-0.011311316003177536,-0.02055016706148823,baby-day-analog,were so much less,Sleep A Million Years,Kathy Heideman,-0.5202715724290011,0.9838413772892086
+-0.025470776568191984,-0.025445457466879078,lovely-place-ticket,bring yourself here to me,Sleep A Million Years,Kathy Heideman,-0.6646895488313809,0.9899696520178969
+-0.015970169632552354,-0.003857837815342988,lovely-place-ticket,now and confess,Sleep A Million Years,Kathy Heideman,-0.9565570974411741,0.9974463072984675
+0.0380607746718734,-0.15994988804919155,baby-day-analog,please dont pass me by,Sleep A Million Years,Kathy Heideman,0.1884759288125959,0.9520179487968131
+-0.04664667044127017,-0.029813850735607068,man-pray-said,when you could stay,Sleep A Million Years,Kathy Heideman,-0.8909924178047787,0.9884837214132055
+-0.015995706352922058,-0.003964033815514258,lovely-place-ticket,have you not yet learned,Sleep A Million Years,Kathy Heideman,-0.9548203128121695,0.9975369985736596
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,we are the,Sleep A Million Years,Kathy Heideman,-0.9599099225491918,0.993686404077177
+0.04591978264912471,-0.0946819188694763,baby-day-analog,dont you know that much too soon,Sleep A Million Years,Kathy Heideman,0.39637754877404,0.9774739874827018
+-0.028196598502662408,-0.007795229377870522,lovely-place-ticket,were going to sleep a million years,Sleep A Million Years,Kathy Heideman,-0.9465143724952786,0.9894579518849135
+-0.040406570287911704,-0.06909339234573822,lovely-place-ticket,edont let your lips say no,Sleep A Million Years,Kathy Heideman,-0.4532062973870965,0.9884598213667541
+-0.0539494414905292,0.05224351254723716,dont-one-need,when you feel yes,Sleep A Million Years,Kathy Heideman,0.12654478544555628,0.9797878474167347
+-0.0231373279958074,-0.007563035036353048,lovely-place-ticket,i just might turn from you,Sleep A Million Years,Kathy Heideman,-0.9306010360823087,0.9943584736460862
+-0.02389516117295132,-0.014709570930288232,lovely-place-ticket,if i must guess,Sleep A Million Years,Kathy Heideman,-0.8192929098673241,0.9891277777092136
+0.044933136513313966,-0.08078291021967691,baby-day-analog,when we dont live our truth,Sleep A Million Years,Kathy Heideman,0.44717717345876956,0.9667035492380167
+-0.011311316003177536,-0.02055016706148823,baby-day-analog,were so much less,Sleep A Million Years,Kathy Heideman,-0.5202715724290011,0.9838413772892086
+-0.025470776568191984,-0.025445457466879078,lovely-place-ticket,bring yourself here to me,Sleep A Million Years,Kathy Heideman,-0.6646895488313809,0.9899696520178969
+-0.015970169632552354,-0.003857837815342988,lovely-place-ticket,now and confess,Sleep A Million Years,Kathy Heideman,-0.9565570974411741,0.9974463072984675
+0.0380607746718734,-0.15994988804919155,baby-day-analog,please dont pass me by,Sleep A Million Years,Kathy Heideman,0.1884759288125959,0.9520179487968131
+-0.04664667044127017,-0.029813850735607068,man-pray-said,when you could stay,Sleep A Million Years,Kathy Heideman,-0.8909924178047787,0.9884837214132055
+-0.015995706352922058,-0.003964033815514258,lovely-place-ticket,have you not yet learned,Sleep A Million Years,Kathy Heideman,-0.9548203128121695,0.9975369985736596
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,we are the,Sleep A Million Years,Kathy Heideman,-0.9599099225491918,0.993686404077177
+0.04591978264912471,-0.0946819188694763,baby-day-analog,dont you know that much too soon,Sleep A Million Years,Kathy Heideman,0.39637754877404,0.9774739874827018
+-0.022890795129759042,-0.004290342362993892,lovely-place-ticket,were going to sleep a million yearsd,Sleep A Million Years,Kathy Heideman,-0.9703566345856077,0.9947763282922265
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Sleep A Million Years,Kathy Heideman,-0.9599099225491918,0.993686404077177
+-0.0297315843325053,0.027365726435020787,lovely-place-ticket,i thought that the sun burned brighter,Borrowed Time,Megan Graney,-0.7743120572795136,0.9853291339134269
+-0.03137023183929674,-0.023118436500640112,lovely-place-ticket,with you by my side,Borrowed Time,Megan Graney,-0.7687468779547566,0.9937143961104324
+-0.044564432939717284,-0.04795730736032248,let-sunshine-go,and that wed go on forever,Borrowed Time,Megan Graney,-0.7598279023871244,0.9883029167176798
+-0.026936214386473204,-0.0009295118804821025,lovely-place-ticket,together you and i,Borrowed Time,Megan Graney,-0.9956496470425124,0.9898050561821925
+-0.05194667003864902,-0.05226026159972147,teardrop-falling-keep,now im wakin from the dream,Borrowed Time,Megan Graney,-0.5944767207631226,0.9912365107896297
+-0.0312026247885141,-0.02850877913060881,lovely-place-ticket,ive been followin you foolishly,Borrowed Time,Megan Graney,-0.6973294480991684,0.9960081340086759
+-0.013660912512975838,-0.010241261232818362,lovely-place-ticket,leavin you is hard for me,Borrowed Time,Megan Graney,-0.7634804895434847,0.9937977392164782
+-0.042619637538977476,-0.04582029040767708,seeing-ill-country,but ive gotta do whats right for me,Borrowed Time,Megan Graney,-0.49863544234440854,0.9857766697066151
+-0.0537614946976484,-0.058480819952673714,let-sunshine-go,thought wed go on you by my side,Borrowed Time,Megan Graney,-0.7563281286646727,0.993108178737532
+-0.0247540765351725,-0.006456735452648121,lovely-place-ticket,forever you and i,Borrowed Time,Megan Graney,-0.9511157658102525,0.993044268693101
+-0.04538628880174512,-0.02075972975677782,analog-together-could,we raised hell every night,Borrowed Time,Megan Graney,0.9923651284637156,0.987488860737655
+-0.026936214386473204,-0.0009295118804821025,lovely-place-ticket,together you and i,Borrowed Time,Megan Graney,-0.9956496470425124,0.9898050561821925
+-0.025868037225686515,-0.012100087968208785,lovely-place-ticket,i thought the world stopped turnin,Borrowed Time,Megan Graney,-0.8793296837148733,0.9897230767722834
+-0.026142816072197348,-0.016873723694186115,lovely-place-ticket,without you by my side,Borrowed Time,Megan Graney,-0.8068576708722878,0.9861018489128173
+-0.025097223619978695,0.00014485147797444102,lovely-place-ticket,how we burned it down together,Borrowed Time,Megan Graney,-0.9985934081572904,0.9907636343627436
+-0.040515474300340394,-0.016995714312687395,analog-together-could,every single night,Borrowed Time,Megan Graney,0.9957847597858889,0.9877237330574308
+-0.05194667003864902,-0.05226026159972147,teardrop-falling-keep,now im wakin from a dream,Borrowed Time,Megan Graney,-0.5944767207631226,0.9912365107896297
+-0.0312026247885141,-0.02850877913060881,lovely-place-ticket,ive been followin you foolishly,Borrowed Time,Megan Graney,-0.6973294480991684,0.9960081340086759
+-0.013805863786700725,-0.003248609613539312,lovely-place-ticket,you were playin god with me,Borrowed Time,Megan Graney,-0.9582668540384089,0.9953455167525699
+-0.01380584431925178,-0.0032483742723132263,lovely-place-ticket,and i bought it all completely yeah,Borrowed Time,Megan Graney,-0.9582713815598957,0.9953453810764369
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,e,Borrowed Time,Megan Graney,-0.9599099225491918,0.993686404077177
+-0.047102245513999726,-0.0464723339200275,teardrop-falling-keep,honestly im,Borrowed Time,Megan Graney,-0.5866158928376107,0.9870700569457631
+-0.03158757635888202,-0.041175088375101344,lovely-place-ticket,sometimes never good for you,Borrowed Time,Megan Graney,-0.5609819333243736,0.9865673619620683
+-0.013805947927935224,-0.0032484201112726054,lovely-place-ticket,am i dreamin,Borrowed Time,Megan Graney,-0.9582709605088277,0.9953454930833902
+-0.024835533733819266,-0.006059419424542272,lovely-place-ticket,youre already leavin me,Borrowed Time,Megan Graney,-0.9558892706326818,0.9929997999036712
+-0.0537614946976484,-0.058480819952673714,let-sunshine-go,thought wed go on you by my side,Borrowed Time,Megan Graney,-0.7563281286646727,0.993108178737532
+-0.0247540765351725,-0.006456735452648121,lovely-place-ticket,forever you and i,Borrowed Time,Megan Graney,-0.9511157658102525,0.993044268693101
+-0.04538628880174512,-0.02075972975677782,analog-together-could,we raised hell every night,Borrowed Time,Megan Graney,0.9923651284637156,0.987488860737655
+-0.026936214386473204,-0.0009295118804821025,lovely-place-ticket,together you and i,Borrowed Time,Megan Graney,-0.9956496470425124,0.9898050561821925
+-0.02862397451511607,-0.026027421008387192,seeing-ill-country,runnin on borrowed time,Borrowed Time,Megan Graney,-0.4244677648450881,0.993131015296336
+-0.0247540765351725,-0.006456735452648121,lovely-place-ticket,forever you and i,Borrowed Time,Megan Graney,-0.9511157658102525,0.993044268693101
+-0.0537614946976484,-0.058480819952673714,let-sunshine-go,thought wed go on you by my side,Borrowed Time,Megan Graney,-0.7563281286646727,0.993108178737532
+-0.030428955423435333,0.018628810054230976,lovely-place-ticket,together you and id,Borrowed Time,Megan Graney,-0.882083552520792,0.9778789040231198
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Borrowed Time,Megan Graney,-0.9599099225491918,0.993686404077177
+0.30945835709794345,-0.043009947139773345,every-gon-na,i dont want instant packaged,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.39373084793237356,0.967918422748217
+0.3080091981084503,0.014519236203860614,every-gon-na,i want made at home,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.2177248019363149,0.9641620185753251
+0.3094583485892576,-0.0430099021935168,every-gon-na,i dont want advertisements on my telephone,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.3937307203987506,0.9679184623572319
+0.23790395285502802,-0.0363864940856005,every-gon-na,dont want formal letters robo calls,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.40625956861161144,0.9462037221888743
+-0.013805896082361541,-0.0032487392457120155,lovely-place-ticket,big box shopping malls,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9582644596792523,0.9953456099794027
+-0.013805876244028424,-0.003249002290320279,lovely-place-ticket,digitally remastered,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9582592067765496,0.9953457259464668
+-0.013805985781206061,-0.003248217542222194,lovely-place-ticket,formatted to fit your tv,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.958275109455783,0.9953454231133471
+0.8938578801993516,0.08736913293680183,every-gon-na,i want analog,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.1683469769184521,1.0
+0.5442416020672736,0.07616012056197284,lovely-place-ticket,analog baby,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.9804909744996533,0.9749649513993387
+0.38426357541995,-0.051932604398223316,every-gon-na,i dont want it manufactured,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.3902667526674784,0.9334756647709649
+0.0022575941611722504,-0.005100225595398183,lovely-place-ticket,home on wheels,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.45781744959022264,0.9801115798159208
+0.3057854134453377,0.018123301030684016,every-gon-na,i want a lazy river,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.20590462949725383,0.9620584941599222
+-0.015313258310348759,-0.004500886380520616,lovely-place-ticket,i can cool my heels,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9411810744795766,0.997255076835111
+0.309458353121998,-0.04300986550803319,every-gon-na,dont want junk mail,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.3937306116561433,0.9679184879594892
+-0.013806024981915077,-0.0032475352138320963,lovely-place-ticket,total waste,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9582886757756438,0.9953451116689344
+-0.03903446934993066,-0.034588135389047266,lovely-place-ticket,one dollar jukebox plays,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.7081688404993176,0.9925174522791081
+-0.014765109718741032,-0.0017677851009603928,lovely-place-ticket,congratulations youve been selected randomly,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9842038202323569,0.9950940695328133
+0.8938578801993516,0.08736913293680183,every-gon-na,i want analog,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.1683469769184521,1.0
+0.5442416020672736,0.07616012056197284,lovely-place-ticket,analog baby,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.9804909744996533,0.9749649513993387
+-0.013805992152414782,-0.003248262583915552,lovely-place-ticket,eguitar,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9582742552046364,0.9953454513504829
+0.3281071048243872,-0.04949512038356704,every-gon-na,i dont want livin room,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.404386985691028,0.9509820478324407
+-0.01504019535666791,-0.040791887078894785,let-sunshine-go,front rooms to go,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.45069678405975305,0.9764914918393817
+-0.01380593643786507,-0.0032484465628855176,lovely-place-ticket,your msg and your gmos,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9582703884977415,0.9953454966062091
+-0.03190101529846705,0.1140011557616675,lovely-place-ticket,keep your touch tunes,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.3256213910610947,0.9890014587045838
+-0.013805996219700616,-0.003248717480203256,lovely-place-ticket,your spotify,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9582653490697579,0.9953456848328789
+-0.020345662355833405,-0.005236983039117201,lovely-place-ticket,i wanna hear that nail just skippin on my old hifi,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9521048707086014,0.9974534939983392
+0.027383312986514082,0.014540079696120985,baby-day-analog,dont need a photograph,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.9029865264283935,0.95170646907434
+-0.019512259240871594,0.013057437977726951,lovely-place-ticket,id rather have the memory,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.8623358910426738,0.9814228921368295
+0.8938578801993516,0.08736913293680183,every-gon-na,i want analog,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.1683469769184521,1.0
+0.5442416020672736,0.07616012056197284,lovely-place-ticket,analog baby,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.9804909744996533,0.9749649513993387
+-0.06533713806098966,-0.05130993475013784,teardrop-falling-keep,now im not down on it just because its new,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.49160051741295435,0.980050770045717
+-0.015045520815071834,-0.003934059939699758,lovely-place-ticket,but in gaining a little,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9509300063743139,0.9967556876541646
+-0.018307100825734744,-0.0013785707747173883,lovely-place-ticket,weve lost something too,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9910383798686611,0.995742001513427
+-0.024669696119607763,-0.005819184586214313,lovely-place-ticket,when youre climbing in bed,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9581103239392108,0.9931753325561502
+-0.022753264776620576,-0.014137063033234821,lovely-place-ticket,a phone in your face,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.8169084255233782,0.9902064535530858
+-0.06004998373564313,-0.047420729892688994,dont-one-need,it feels like youre light years away from this place,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.9999810579458474,0.9823262553245912
+-0.027595800485354254,-0.03756870611958971,love-bring-must,we work like machines,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.9961354831725847,0.9879682235010757
+-0.013805967846476612,-0.0032490748122352992,lovely-place-ticket,in some scifi fantasy,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9582582067531131,0.9953458411489171
+0.8938578801993516,0.08736913293680183,every-gon-na,i want analog,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.1683469769184521,1.0
+0.5442416020672736,0.07616012056197284,lovely-place-ticket,analog baby,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.9804909744996533,0.9749649513993387
+0.8938578801993516,0.08736913293680183,every-gon-na,i want analog,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.1683469769184521,1.0
+0.38018096870703844,0.050153323092903455,lovely-place-ticket,analog babyd,Baby I'm Yours - Digitally Remastered,Cass Elliot,0.982008113354014,0.9670219752927028
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Baby I'm Yours - Digitally Remastered,Cass Elliot,-0.9599099225491918,0.993686404077177
+-0.013805918752582759,-0.00324840026089714,lovely-place-ticket,on a dark desert highway,Passage,Novo Amor,-0.958271215281317,0.9953454580329871
+-0.027851261856679344,-0.013495004268364029,river-go-milk,cool wind in my hair,Passage,Novo Amor,0.30415485720916924,0.9873303781988272
+-0.016866788383056205,-0.014152350125063782,lovely-place-ticket,warm smell of colitas,Passage,Novo Amor,-0.7269481034604227,0.9914491301814378
+-0.013805953865016407,-0.0032486694098721766,lovely-place-ticket,rising up through the air,Passage,Novo Amor,-0.9582660966856109,0.9953456242157268
+-0.013805937889442623,-0.003248110010028158,lovely-place-ticket,up ahead in the distance,Passage,Novo Amor,-0.9582769980195982,0.9953453276803822
+-0.020932931421364247,-0.005561753745366041,lovely-place-ticket,i saw a shimmering light,Passage,Novo Amor,-0.949702667712067,0.9968959634131377
+-0.01612513750893723,-0.004366695476139402,lovely-place-ticket,my head grew heavy and my sight grew dim,Passage,Novo Amor,-0.9482001157582276,0.9978916330806763
+-0.03649205893271548,-0.011293077053595328,analog-together-could,i had to stop for the night,Passage,Novo Amor,0.9999863609950342,0.9832456540368252
+-0.013805975410100837,-0.0032476252226764737,lovely-place-ticket,there she stood in the doorway,Passage,Novo Amor,-0.9582866814128108,0.9953451146932241
+-0.01648242286138126,-0.004935144884124969,lovely-place-ticket,i heard the mission bell,Passage,Novo Amor,-0.9394616331259886,0.998495119376043
+-0.013805981320722775,-0.003247934723508618,lovely-place-ticket,and i was thinkin to myself,Passage,Novo Amor,-0.9582806372288044,0.9953452762780846
+-0.03527821487991713,-0.012071208877471332,man-pray-said,this could be heaven or this could be hell,Passage,Novo Amor,-0.973151081317567,0.9840605804407069
+-0.013805915265299732,-0.0032481567670532853,lovely-place-ticket,then she lit up a candle,Passage,Novo Amor,-0.9582759762948447,0.995345331926466
+-0.03233261098027426,0.04471698892423133,dont-one-need,and she showed me the way,Passage,Novo Amor,-0.04852843166200609,0.9926408329309396
+-0.01473510365955968,-0.0035796318225503913,lovely-place-ticket,there were voices down the corridor,Passage,Novo Amor,-0.9561798475128118,0.996305355231175
+-0.03566787855313788,-0.01903983025350324,lovely-place-ticket,i thought i heard them say,Passage,Novo Amor,-0.8529712593433434,0.9909296706449411
+-0.01698813053064022,-0.0103116629512891,lovely-place-ticket,welcome to the hotel california,Passage,Novo Amor,-0.8228646866846574,0.9952440204764396
+-0.03214989833394974,-0.026554280402485465,lovely-place-ticket,such a lovely place such a lovely place,Passage,Novo Amor,-0.7322451157549343,0.9965817639061395
+-0.03337838292780951,-0.028321079924703785,lovely-place-ticket,such a lovely face,Passage,Novo Amor,-0.7231587650340237,0.9981855284792995
+-0.004010939760237945,-0.012601062754113683,lovely-place-ticket,plenty of room at the hotel california,Passage,Novo Amor,-0.2467687065350157,0.9846409360216397
+-0.040739084356181496,-0.037311360418442796,seeing-ill-country,any time of year any time of year,Passage,Novo Amor,-0.4277127845846198,0.9893343738326872
+-0.03720789628766922,0.09188796518363058,lovely-place-ticket,you can find it here,Passage,Novo Amor,-0.4291609090331548,0.9691669247987379
+-0.02024834770677412,-0.044848191503080934,new-night-im,see eagles liveget tickets as low as e,Passage,Novo Amor,-0.8286520683063813,0.9778368299308692
+-0.015590840311078939,-0.004875346160043019,lovely-place-ticket,her mind is tiffanytwisted,Passage,Novo Amor,-0.9352295069719363,0.9976487153635999
+-0.018689905127934045,-0.010471592470429636,lovely-place-ticket,she got the mercedes benz uh,Passage,Novo Amor,-0.8421603438361466,0.995082292047024
+-0.031296215888411735,-0.02721449038494589,lovely-place-ticket,she got a lot of pretty pretty boys,Passage,Novo Amor,-0.7147233138348463,0.9960105470306667
+-0.014871502174912085,-0.032952008592483435,lovely-place-ticket,that she calls friends,Passage,Novo Amor,-0.35706496540997373,0.9793401253130831
+-0.017786669207450232,-0.0050951948620893426,lovely-place-ticket,how they dance in the courtyard,Passage,Novo Amor,-0.9434835661780673,0.999475669185461
+-0.01791280798994432,-0.008251044847024405,lovely-place-ticket,sweet summer sweat,Passage,Novo Amor,-0.8821116903598907,0.9973692349360197
+-0.042223255365173434,-0.021923169838403093,lovely-place-ticket,some dance to remember,Passage,Novo Amor,-0.8588773762917223,0.9906542717414415
+-0.017786669249616048,-0.0050952018777054705,lovely-place-ticket,some dance to forget,Passage,Novo Amor,-0.9434834455774865,0.9994756761821009
+-0.013806045501474075,-0.003247624515165359,lovely-place-ticket,so i called up the captain,Passage,Novo Amor,-0.9582870187202539,0.995345174423854
+-0.027979631596169164,-0.08242416653560397,lovely-place-ticket,please bring me my wine,Passage,Novo Amor,-0.26522409497703936,0.9706908798825018
+-0.015854704022487325,-0.0058183357322062895,lovely-place-ticket,he said we havent had that spirit here,Passage,Novo Amor,-0.9169066855152023,0.9980219501003296
+-0.013806005752852592,-0.0032479685721008367,lovely-place-ticket,since,Passage,Novo Amor,-0.9582800859598442,0.995345314340912
+-0.01704777932972315,-0.004654648197917343,lovely-place-ticket,and still those voices are callin,Passage,Novo Amor,-0.9475369615729323,0.9987630140268563
+-0.024717063409225887,-0.013354386846179839,lovely-place-ticket,from far away,Passage,Novo Amor,-0.850334809522058,0.9896923391623327
+-0.033479912400047294,-0.006022619548636953,analog-together-could,wake you up in the middle of the night,Passage,Novo Amor,0.9919009418579346,0.9844614374516191
+-0.02700620748508876,-0.013004761336834817,lovely-place-ticket,just to hear them say,Passage,Novo Amor,-0.8739166088192123,0.9882851785668225
+-0.01698813053064022,-0.0103116629512891,lovely-place-ticket,welcome to the hotel california,Passage,Novo Amor,-0.8228646866846574,0.9952440204764396
+-0.03214989833394974,-0.026554280402485465,lovely-place-ticket,such a lovely place such a lovely place,Passage,Novo Amor,-0.7322451157549343,0.9965817639061395
+-0.03337838292780951,-0.028321079924703785,lovely-place-ticket,such a lovely face,Passage,Novo Amor,-0.7231587650340237,0.9981855284792995
+-0.0002985785870109968,-0.011820366243441073,lovely-place-ticket,they livin it up at the hotel california,Passage,Novo Amor,0.033556618902334086,0.9815807141705546
+-0.013805972899088277,-0.0032484682239132916,lovely-place-ticket,what a nice surprise what a nice surprise,Passage,Novo Amor,-0.9582701318352883,0.9953455388187418
+-0.022110621061161934,-0.01827677763128032,lovely-place-ticket,bring your alibis,Passage,Novo Amor,-0.7319803649997885,0.9867244986295459
+-0.013805940121136104,-0.0032489470022047003,lovely-place-ticket,mirrors on the ceiling,Passage,Novo Amor,-0.9582605865864228,0.9953457527669918
+-0.015623178587108596,-0.00547701394485298,lovely-place-ticket,the pink champagne on ice and she said,Passage,Novo Amor,-0.9226114753370713,0.9977964997711583
+-0.013805968423295163,-0.003248106144895477,lovely-place-ticket,we are all just prisoners here,Passage,Novo Amor,-0.9582772147778242,0.9953453519037186
+-0.013805903044465615,-0.0032488639130101578,lovely-place-ticket,of our own device,Passage,Novo Amor,-0.958262045716471,0.9953456789731862
+-0.013805955054235099,-0.0032475910894800997,lovely-place-ticket,and in the masters chambers,Passage,Novo Amor,-0.9582872570502086,0.9953450799799977
+-0.01380592634425873,-0.003248211345240054,lovely-place-ticket,they gathered for the feast,Passage,Novo Amor,-0.9582749566826863,0.9953453690219067
+-0.01380602288065582,-0.003248081511643858,lovely-place-ticket,they stab it with their steely knives,Passage,Novo Amor,-0.9582779493835747,0.9953453861356623
+-0.01729513774342274,-0.004128247243973304,lovely-place-ticket,but they just cant kill the beast,Passage,Novo Amor,-0.9573450032826443,0.9984199395966536
+-0.036885618845967034,-0.020715681430970644,lovely-place-ticket,last thing i remember i was,Passage,Novo Amor,-0.8416107817118245,0.9924136051961702
+-0.015003412149845637,-0.004731866584077845,lovely-place-ticket,running for the door,Passage,Novo Amor,-0.9343629955786144,0.9970472166189092
+-0.03014738745462253,0.034470092197218714,lovely-place-ticket,i had to find the passage back,Passage,Novo Amor,-0.7014415537221403,0.990747043677821
+-0.02488519691809952,-0.016409279581953776,lovely-place-ticket,to the place i was before,Passage,Novo Amor,-0.8010364896988168,0.9871871451494437
+0.023459009838820846,-0.007786102880432222,analog-together-could,relax said the night man,Passage,Novo Amor,-0.8104923786392543,0.9595023941968298
+-0.013805871279274474,-0.0032485146002471806,lovely-place-ticket,we are programmed to receive,Passage,Novo Amor,-0.9582687528126689,0.995345475140135
+-0.044707644376580084,-0.06452788397960495,teardrop-falling-keep,you can check out any time you like,Passage,Novo Amor,-0.7264195280718885,0.9945089218124892
+-0.035333668833692586,-0.04846179181961345,lovely-place-ticket,but you can never leave,Passage,Novo Amor,-0.5406213616504941,0.984135275629375
+-0.013805904074554828,-0.003248907325048974,lovely-place-ticket,guitar solod,Passage,Novo Amor,-0.9582611986675063,0.9953457018024081
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Passage,Novo Amor,-0.9599099225491918,0.993686404077177
+-0.03486319958803644,-0.008156523194314879,lovely-place-ticket,if youre travelin in the north country fair,Girl from the North Country,Bob Dylan,-0.9586314706676186,0.9829208900736667
+-0.025779128614846308,0.010013729505728484,river-go-milk,where the winds hit heavy on the borderline,Girl from the North Country,Bob Dylan,0.9047350166158155,0.9826133984518062
+-0.09153769361271784,-0.08638009880465063,girl-want-like,remember me to one who lives there,Girl from the North Country,Bob Dylan,0.9892830857181871,0.9641789926278931
+-0.05188110262190924,-0.07808856719496604,baby-day-analog,for she once was a true love of mine,Girl from the North Country,Bob Dylan,-0.5894866634542447,0.9809305396528215
+-0.03339698997070169,-0.043135861803917076,let-sunshine-go,if you go when the snowflakes storm,Girl from the North Country,Bob Dylan,-0.6983806191205338,0.9850101312097892
+-0.008712634807183104,-0.007179345573699979,lovely-place-ticket,when the rivers freeze and summer ends,Girl from the North Country,Bob Dylan,-0.7330294927007494,0.9907979016842088
+-0.037413679942029904,-0.10989343505084813,new-night-im,please see she has a coat so warm,Girl from the North Country,Bob Dylan,-0.8784645347047212,0.9668292671496763
+-0.04154114961011865,0.14344567481478354,river-go-milk,to keep her from the howling winds,Girl from the North Country,Bob Dylan,0.8877467744759402,0.9796600450567591
+-0.04578228256179559,-0.13065325075045836,new-night-im,please see if her hair hangs long,Girl from the North Country,Bob Dylan,-0.8741797496160253,0.9717390662141862
+-0.01596359569369157,-0.0037423117951025614,lovely-place-ticket,if it rolls and flows all down her breast,Girl from the North Country,Bob Dylan,-0.9585045704834316,0.9973610335960376
+-0.045782283267340775,-0.13065324508265475,new-night-im,please see for me if her hairs hangin long,Girl from the North Country,Bob Dylan,-0.8741797407060975,0.9717390695802332
+-0.058976587560556695,0.03257623075748228,teardrop-falling-keep,for thats the way i remember her best,Girl from the North Country,Bob Dylan,0.6103045885722175,0.9778886481196859
+-0.04605772428001005,-0.045219409817053836,teardrop-falling-keep,im awondering if she remembers me at all,Girl from the North Country,Bob Dylan,-0.5846279625645411,0.9858097610948693
+-0.04108048630955497,-0.04402268811315401,seeing-ill-country,many times ive often prayed,Girl from the North Country,Bob Dylan,-0.4972340791126099,0.9836076035136888
+-0.040923152319491535,-0.012623220070403425,analog-together-could,in the darkness of my night,Girl from the North Country,Bob Dylan,0.9999811479379584,0.9835935679228472
+-0.02601431532218489,-0.01584826996725199,lovely-place-ticket,in the brightness of my day,Girl from the North Country,Bob Dylan,-0.8219421700565038,0.986981129904649
+-0.020963462566941492,-0.04465060411060564,new-night-im,see bob dylan liveget tickets as low as e,Girl from the North Country,Bob Dylan,-0.8202416291445664,0.9784434782177702
+-0.03486319958803644,-0.008156523194314879,lovely-place-ticket,so if youre travelin in the north country fair,Girl from the North Country,Bob Dylan,-0.9586314706676186,0.9829208900736667
+-0.025779128614846308,0.010013729505728484,river-go-milk,where the winds hit heavy on the borderline,Girl from the North Country,Bob Dylan,0.9047350166158155,0.9826133984518062
+-0.09153769361271784,-0.08638009880465063,girl-want-like,remember me to one who lives there,Girl from the North Country,Bob Dylan,0.9892830857181871,0.9641789926278931
+-0.05039381603921532,-0.07624954271639364,baby-day-analog,for she once was a true love of mined,Girl from the North Country,Bob Dylan,-0.5875307625537972,0.9830251853239484
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Girl from the North Country,Bob Dylan,-0.9599099225491918,0.993686404077177
+-0.03486319958803644,-0.008156523194314879,lovely-place-ticket,if youre travelin in the north country fair,Girl from the North Country,Bob Dylan,-0.9586314706676186,0.9829208900736667
+-0.025779128614846308,0.010013729505728484,river-go-milk,where the winds hit heavy on the borderline,Girl from the North Country,Bob Dylan,0.9047350166158155,0.9826133984518062
+-0.09153769361271784,-0.08638009880465063,girl-want-like,remember me to one who lives there,Girl from the North Country,Bob Dylan,0.9892830857181871,0.9641789926278931
+-0.05188110262190924,-0.07808856719496604,baby-day-analog,for she once was a true love of mine,Girl from the North Country,Bob Dylan,-0.5894866634542447,0.9809305396528215
+-0.03339698997070169,-0.043135861803917076,let-sunshine-go,if you go when the snowflakes storm,Girl from the North Country,Bob Dylan,-0.6983806191205338,0.9850101312097892
+-0.008712634807183104,-0.007179345573699979,lovely-place-ticket,when the rivers freeze and summer ends,Girl from the North Country,Bob Dylan,-0.7330294927007494,0.9907979016842088
+-0.037413679942029904,-0.10989343505084813,new-night-im,please see she has a coat so warm,Girl from the North Country,Bob Dylan,-0.8784645347047212,0.9668292671496763
+-0.04154114961011865,0.14344567481478354,river-go-milk,to keep her from the howling winds,Girl from the North Country,Bob Dylan,0.8877467744759402,0.9796600450567591
+-0.04578228256179559,-0.13065325075045836,new-night-im,please see if her hair hangs long,Girl from the North Country,Bob Dylan,-0.8741797496160253,0.9717390662141862
+-0.01596359569369157,-0.0037423117951025614,lovely-place-ticket,if it rolls and flows all down her breast,Girl from the North Country,Bob Dylan,-0.9585045704834316,0.9973610335960376
+-0.045782283267340775,-0.13065324508265475,new-night-im,please see for me if her hairs hangin long,Girl from the North Country,Bob Dylan,-0.8741797407060975,0.9717390695802332
+-0.058976587560556695,0.03257623075748228,teardrop-falling-keep,for thats the way i remember her best,Girl from the North Country,Bob Dylan,0.6103045885722175,0.9778886481196859
+-0.04605772428001005,-0.045219409817053836,teardrop-falling-keep,im awondering if she remembers me at all,Girl from the North Country,Bob Dylan,-0.5846279625645411,0.9858097610948693
+-0.04108048630955497,-0.04402268811315401,seeing-ill-country,many times ive often prayed,Girl from the North Country,Bob Dylan,-0.4972340791126099,0.9836076035136888
+-0.040923152319491535,-0.012623220070403425,analog-together-could,in the darkness of my night,Girl from the North Country,Bob Dylan,0.9999811479379584,0.9835935679228472
+-0.02601431532218489,-0.01584826996725199,lovely-place-ticket,in the brightness of my day,Girl from the North Country,Bob Dylan,-0.8219421700565038,0.986981129904649
+-0.020963462566941492,-0.04465060411060564,new-night-im,see bob dylan liveget tickets as low as e,Girl from the North Country,Bob Dylan,-0.8202416291445664,0.9784434782177702
+-0.03486319958803644,-0.008156523194314879,lovely-place-ticket,so if youre travelin in the north country fair,Girl from the North Country,Bob Dylan,-0.9586314706676186,0.9829208900736667
+-0.025779128614846308,0.010013729505728484,river-go-milk,where the winds hit heavy on the borderline,Girl from the North Country,Bob Dylan,0.9047350166158155,0.9826133984518062
+-0.09153769361271784,-0.08638009880465063,girl-want-like,remember me to one who lives there,Girl from the North Country,Bob Dylan,0.9892830857181871,0.9641789926278931
+-0.05039381603921532,-0.07624954271639364,baby-day-analog,for she once was a true love of mined,Girl from the North Country,Bob Dylan,-0.5875307625537972,0.9830251853239484
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Girl from the North Country,Bob Dylan,-0.9599099225491918,0.993686404077177
+-0.023499644266995818,-0.013762612836105489,lovely-place-ticket,why cant i come to you,Why Can't I Come to You,Patty Waters,-0.8317077276656883,0.9901225595990268
+-0.03120215593007781,-0.019311407722699472,seeing-ill-country,take a chance that you might understand,Why Can't I Come to You,Patty Waters,-0.2519175591246359,0.9903623335753797
+-0.017993768786452216,-0.004300159593553431,lovely-place-ticket,why cant i talk to you,Why Can't I Come to You,Patty Waters,-0.9572666820620171,0.9986719375680086
+-0.031580414591793615,-0.015961843397907467,lovely-place-ticket,say the words that would make everything clear,Why Can't I Come to You,Patty Waters,-0.8644187051149078,0.9873809785382017
+-0.043823223550196966,0.03061842638793995,dont-one-need,about the way i feel toward you,Why Can't I Come to You,Patty Waters,0.28248183987728603,0.9891204674691677
+-0.013806009450055293,-0.0032479372844558723,lovely-place-ticket,its such a strong emotion,Why Can't I Come to You,Patty Waters,-0.9582807168098232,0.9953453016888859
+-0.03533331282359467,-0.008813231402734645,lovely-place-ticket,so new to me,Why Can't I Come to You,Patty Waters,-0.9543678710018121,0.9823596003356494
+-0.04382322322022108,0.030618422669310412,dont-one-need,about the way i feel inside,Why Can't I Come to You,Patty Waters,0.28248189118426825,0.9891204645787514
+-0.05533698803857931,-0.07818156473947813,baby-day-analog,it must be love,Why Can't I Come to You,Patty Waters,-0.6130711815194131,0.9797048751632316
+-0.025124968429837732,-0.01741953703225511,lovely-place-ticket,it must be,Why Can't I Come to You,Patty Waters,-0.7868902319410673,0.9862190575458759
+-0.06519451829617279,-0.10545144720270155,baby-day-analog,love,Why Can't I Come to You,Patty Waters,-0.5627631519269625,0.9880494885382587
+0.05261105683438235,-0.08500421083680537,baby-day-analog,but i dont have the strength,Why Can't I Come to You,Patty Waters,0.48836708020560293,0.9661178802427485
+-0.030064789946232084,-0.020499689896629064,seeing-ill-country,within myself to take a chance,Why Can't I Come to You,Patty Waters,-0.2944617336985299,0.990845676365696
+-0.018172875897757797,-0.0048742916059741365,lovely-place-ticket,that you might scorn me,Why Can't I Come to You,Patty Waters,-0.948962221040015,0.9991788482659648
+-0.02298487954161032,-0.01244127426547484,lovely-place-ticket,so i must wait with hopeful heart,Why Can't I Come to You,Patty Waters,-0.8499312108715009,0.9914818520319192
+-0.022888029464761966,-0.008351644737178601,lovely-place-ticket,for you to look at me once more,Why Can't I Come to You,Patty Waters,-0.9176397391313372,0.9942624178555862
+-0.03169669489552809,-0.048475021395270865,new-night-im,and see your woman,Why Can't I Come to You,Patty Waters,-0.7322969711529628,0.98138841985853
+-0.06417729801300386,-0.01734363822636383,man-pray-said,you could always love,Why Can't I Come to You,Patty Waters,-0.9861697987156042,0.9695371064331495
+-0.011629528011322852,-0.013170367841501811,lovely-place-ticket,and with nothing more than feelings,Why Can't I Come to You,Patty Waters,-0.6166890592332916,0.9902796165306514
+-0.017883843738552358,0.07194467690872985,baby-day-analog,know how very much she needs youed,Why Can't I Come to You,Patty Waters,-0.19831626333966165,0.9628506114799577
+-0.01215915933275389,-0.0027867508981097087,lovely-place-ticket,,Why Can't I Come to You,Patty Waters,-0.9599099225491918,0.993686404077177

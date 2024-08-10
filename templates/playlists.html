@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<header>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles/style.css"/>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>[INSERT SPOTIFY TITLE HERE]</title>
+</header>
+<body>
+    <div class = "left-screen">
+        <div class = "project-display">
+            <div id = "title-message">
+                <span id = "user-name">alisonkim12</span>'s Spotify playlists
+            </div>
+            <div id = "subtitle-message">Interact with the dials below to visualize your top 5 most recent public playlists on Spotify</div>
+        </div>
+        <div class="user_tools_container">
+            <div class="container left-side">
+                <div class="player">
+                    <div class="record">
+                        <div class="record-label"></div>
+                    </div>
+                    <div class="tone-arm">
+                        <div class="control"></div>
+                    </div>
+                    <i class="ri-timer-2-fill one"></i>
+                    <i class="ri-timer-2-fill two"></i>
+                </div>
+                <div class="track_information_display">
+                    <!-- <span class = "display_title">Track Information </span> -->
+                    <div id="track_name">
+                        <span class = "label">Track Name: </span>
+                        <span id="track_name_output" class = "output"></span>
+                    </div>
+                    <div id="track_artists">
+                        <span class = "label">Track Artist(s): </span>
+                        <span id="track_artists_output" class = "output"></span>
+                    </div>
+                    <div id="track_album">
+                        <span class = "label">Track Album: </span>
+                        <span id="track_album_output" class = "output"></span>
+                    </div>
+                </div>  
+            </div>
+            <div class="container right-side">
+                <div id="playlist_filter">
+                    <div class="amp-box">
+                        <div class = "dial" id = "playlist-1">
+                            <i class="dial ri-dashboard-3-fill clicked"></i>
+                            <i class="ri-more-fill"></i>
+                            <span class = "playlist-name" id = "playlist-1-name"><i class="ri-alarm-warning-fill on"></i></span>
+                        </div>
+                        <div class = "dial" id = "playlist-2">
+                            <i class="dial ri-dashboard-3-fill"></i>
+                            <i class="ri-more-fill"></i>
+                            <span class = "playlist-name" id = "playlist-2-name"><i class="ri-alarm-warning-fill"></i></span>
+                        </div>
+                        <div class = "dial" id = "playlist-3">
+                            <i class="dial ri-dashboard-3-fill"></i>
+                            <i class="ri-more-fill"></i>
+                            <span class = "playlist-name" id = "playlist-3-name"><i class="ri-alarm-warning-fill"></i></span>
+                        </div>
+                        <div class = "dial" id = "playlist-4">
+                            <i class="dial ri-dashboard-3-fill"></i>
+                            <i class="ri-more-fill"></i>
+                            <span class = "playlist-name" id = "playlist-4-name"><i class="ri-alarm-warning-fill"></i></span>
+                        </div>
+                        <div class = "dial" id = "playlist-5">
+                            <i class="dial ri-dashboard-3-fill"></i>
+                            <i class="ri-more-fill"></i>
+                            <span class = "playlist-name" id = "playlist-5-name"><i class="ri-alarm-warning-fill"></i></span>
+                        </div>
+                        <i class="ri-record-circle-line one"></i>
+                        <i class="ri-record-circle-line two"></i>
+                        <i class="ri-record-circle-line three"></i>
+                        <i class="ri-ram-2-fill one"></i>
+                        <i class="ri-ram-2-fill two"></i>
+                    </div>
+                    <div class = "amp-pegs one "></div>
+                    <div class = "amp-pegs two"></div>
+                </div>
+                <div class="meter-container">
+                    <div class = "amp-meter" id = "separate-by">
+                        <div class="gauge"></div> 
+                        <div class = "guage-filler-one"></div>
+                        <div class = "guage-filler-two"></div>
+                        <div class= "needle"></div> 
+                        <div class= "divider-1 one"></div> 
+                        <div class= "divider-1 two"></div> 
+                    </div>
+                    <div class = "meter-buttons one">
+                        <i class="ri-alarm-warning-fill one"></i>
+                        <i class="ri-alarm-warning-fill one"></i>
+                        <i class="ri-alarm-warning-fill one"></i>
+                        <span class="btn one" id="genre">Genre</span>
+                        <span class="btn one" id="lyric">Lyric</span>
+                        <!-- <span class="btn" id="artist">Artist</span> -->
+                        <span class="btn one" id="combine">Recombine</span>
+                    </div>
+                    <div class = "amp-meter" id = "size-by">
+                        <div class="gauge"></div> 
+                        <div class = "guage-filler-one"></div>
+                        <div class = "guage-filler-two"></div>
+                        <div class="needle"></div> 
+                        <div class= "divider-2 one"></div> 
+                        <div class= "divider-2 two"></div> 
+                        <div class= "divider-2 three"></div> 
+                    </div>
+                    <div class = "meter-buttons two">
+                        <i class="ri-alarm-warning-fill two"></i>
+                        <i class="ri-alarm-warning-fill two"></i>
+                        <i class="ri-alarm-warning-fill two"></i>
+                        <i class="ri-alarm-warning-fill two"></i>
+                        <span class="btn two" id="decade">Decade</span>
+                        <span class="btn two" id="popularity">Popularity</span>
+                        <span class="btn two" id="energy">Energy</span>
+                        <span class="btn two" id="danceability">Danceability</span>
+                    </div>
+                </div>
+                </div> 
+            </div>
+            <svg id = "little-svg"></svg> 
+        </div> 
+    </div>
+    <div class = "right-screen">
+        <svg id = "main-svg"></svg>
+        <div style = "display: none;" id="main-lyric-plot">
+            <svg id = "lyrics-scatterplot-svg"></svg>
+            <div class="lyrics-tooltip" style="position: absolute; top: 5%; left: 25%; width: 450px; height: 400px; padding: 5px; border-radius: 10px; background-color: rgb(0,0,0,0.03);">
+                <div style = "margin: 0 auto; width: fit-content; border: 0.5px solid black; font-size: 1.1em; font-family: 'Caveat', cursive;">For <span id = "lyric-tooltip-playlist-name"></span>'s <span id = "lyric-tooltip-song-num"></span> songs</div>
+                <div style = "display: flex; margin: 10px 0px; border-radius: 10px; position: relative; width: 100%; height: 30%;">
+                    <div style = "position: relative; width: 35%; height: 100%;" class = "lyric-donut-chart">
+                        <canvas style = "margin: 5px auto 0 auto;" id="doughnutChart"></canvas>
+                    </div>
+                    <div style = "position: relative; overflow: scroll; width: 65%; height: 100%; display: flex; flex-direction: column;">
+                        <div style = "font-size: 0.75em; margin-top: 10px; margin: 10px auto 0 auto; font-family: 'Caveat', cursive;">Top Thematic Clusters</div>
+                        <div style = "display: flex;">
+                            <ul style = "padding-left: 10px; margin: 5px 0px; list-style-position: inside; font-size: 0.7em;" id = "lyric-cluster-list-1"></ul>
+                            <ul style = "padding-left: 10px; margin: 5px 0px; list-style-position: inside; font-size: 0.7em;" id = "lyric-cluster-list-2"></ul>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div style = "display: flex; margin: 5px 0px; position: relative; width: 100%; height: 25%;">
+                    <div style = "position: relative; display: flex; flex-direction: column; margin: 0 auto;justify-content: space-around; width: 40%; height: 100%; top: -10px;">
+                        <div style = "position: relative; width: 90%; height: 15%; margin: 0 auto;">
+                            <div style = "font-size: 0.6em; opacity: 0.65;">
+                                <span style = "position: relative;left: 2%; font-style: italic;">x</span>
+                                <span style = "position: relative;left: 75%;"id = "lyric-x-coord"></span>
+                            </div>
+                            <div class = "progress-bar-container">
+                                <div class = "progress-bar"></div>
+                            </div>
+                        </div>
+                        <div style = "position: relative; width: 90%; height: 15%; margin: 0 auto;">
+                            <div style = "font-size: 0.6em; opacity: 0.65;">
+                                <span style = "position: relative;left: 2%; font-style: italic;">y</span>
+                                <span style = "position: relative;left: 75%;" id = "lyric-y-coord"></span>
+                            </div>
+                            <div class = "progress-bar-container">
+                                <div class = "progress-bar"></div>
+                            </div>
+                        </div>
+                        <div style = "position: relative; width: 90%; height: 15%; margin: 0 auto;">
+                            <div style = "font-size: 0.6em; opacity: 0.65;">
+                                <span style = "position: relative;left: 2%; font-style: italic;">confidence level</span>
+                                <span style = "position: relative; left: 43%;" id= "lyric-confidence-level"></span>
+                            </div>
+                            <div class = "progress-bar-container">
+                                <div class = "progress-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style = "position: relative; width: 55%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                        <div style = "font-size: 0.5em; font-style: italic; margin: 0 auto; width: fit-content; position: relative; top: -5px;">lyric verse</div>
+                        <div style = "border-radius: 5px; background-color: rgba(0,0,0,0.02); text-align: center; font-size: 0.5em; height: 30%; width: 95%; display: flex; justify-content: center; align-items: center; margin-bottom: 10px;"><span id="lyrics-stanza"></span></div>
+                        <div style = "border-radius: 5px; background-color: rgba(0,0,0,0.02); text-align: center; font-size: 0.7em; height: 35%; width: 95%;">
+                            <span style = "top: 20%; font-size: 0.8em; position:relative;" id="cluster-string"></span>
+                            <span  style = "top: 20%; font-size: 0.8em; position:relative;" id="lyrics-song-name"></span> 
+                            <span style = "font-style: italic; font-size: 0.8em; top: 20%; position:relative;" id="lyrics-artist-name"></span>
+                        </div>
+                    </div>
+                </div>
+                <div style = "display: flex; top: -5px; margin: 5px 0px; position: relative; width: 100%; height: 30%;">
+                    <div style = "position: relative; margin-left: 20px; width: 30%; height: 100%; background-color: rgba(0,0,0,0.02);border-radius: 10px; top: 10px;">
+                        <div style = "font-size: 0.6em; width: fit-content; margin: 0 auto; font-style: italic; margin-top: 5px;">Cosine Similiarity</div>
+                        <svg style = "position: relative; width: 100%; height: 100%; top: -15px;">
+                            <circle id="circle-foreground" style = "margin: 0 auto; fill: none; stroke-width: 10px; stroke-linecap: round; transform: rotate(-90deg); transform-origin: 50% 50%; stroke-dasharray: 251.32; stroke-dashoffset: 251.32; transition: stroke-dashoffset 0.8s ease-out;" cx="57" cy="57" r="40"/>
+                            <text id="circle-percentage" x="50%" y="55%" text-anchor="middle" dy=".3em" font-size="15px" fill="black"></text>
+                        </svg>
+                    </div>
+                    <div style = "position: relative; width: 65%; height: 110%;">
+                        <canvas style = "margin: 0 auto;" id="areaChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .progress-bar-container {
+            height: 60%;
+            border-radius: 2rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s;
+            will-change: transform;
+            box-shadow: 0 0 1px #e76f51;
+            width: 100%;
+        }
+        .progress-bar {
+            position: absolute;
+            height: 100%;
+            width: 0%;
+            content: "";
+            background-color: #e76f51;
+            top: 0;
+            bottom: 0;
+            /* left: -100%; */
+            border-radius: inherit;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            color: white;
+            font-family: sans-serif;
+        }
+    </style>
+    <script>
+        const control = document.getElementsByClassName('control')[0];
+        let controlClicked = false;
+        control.addEventListener("click", () => {
+            if (controlClicked == false){
+                document.getElementsByClassName('tone-arm')[0].classList.add("play");
+                setTimeout(()=>{
+                    document.getElementsByClassName('record')[0].classList.add("on");
+                },700)
+            }
+            else{
+                document.getElementsByClassName('tone-arm')[0].classList.remove("play");
+                document.getElementsByClassName('record')[0].classList.remove("on");
+            }
+            controlClicked = !controlClicked;
+        });
+
+        const meterLights = document.querySelectorAll('.meter-buttons .ri-alarm-warning-fill');
+        const meterButtons = document.querySelectorAll('.meter-buttons .btn');
+        const meterNeedle = document.querySelectorAll('.needle');
+
+        // buttons meter animation
+       
+        meterButtons.forEach((each_button, i)=>{
+            each_button.addEventListener("click", () => {
+                if (i < 3){
+                    meterNeedle[0].style.transform = `rotate(${(-60+ ((i*60)))}deg)`;
+                    [...meterLights].splice(0,3).forEach((item)=>{
+                        item.classList.remove("on");
+                    });
+                } else{
+                    meterNeedle[1].style.transform = `rotate(${(-60+ (((i-3)*40)))}deg)`;
+                    [...meterLights].splice(3).forEach((item)=>{
+                        item.classList.remove("on");
+                    });
+                }
+                meterLights[i].classList.add('on');
+        });})
+       
+    </script>
+    <script type="text/javascript" src = "../static/little_chart.js"></script>
+    <script type="text/javascript" src = "../static/bubble_chart.js"></script>
+    <script type="text/javascript" src = "../static/lyrics_plot_test.js"></script>
+    <script type="text/javascript" src = "../static/main.js"></script>
+</body>

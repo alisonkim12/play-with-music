@@ -1,0 +1,324 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[INSERT PROJECT TITLE]</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Old+Standard+TT&family=Alfa+Slab+One&family=Tangerine&display=swap');
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #water {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(114,210,170);
+            background: radial-gradient(circle, rgba(114,210,170,1) 10%, rgba(137,195,186,1) 42%, rgba(255,255,255,0) 95%);
+            overflow: hidden;
+            opacity: 0.7;
+            z-index: -1;
+        }
+
+        span.ripple {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: scale(0);
+            width: 30px;
+            height: 30px;
+            animation: ripple-effect 0.7s linear;
+        }
+
+        @keyframes ripple-effect {
+            to {
+                transform: scale(5);
+                opacity: 0;
+            }
+        }
+        #login-button {
+            border: white;
+            border-radius: 30px;
+            background-color: green; 
+            padding: 15px 25px;
+            cursor: pointer;
+            font-family: "Alfa Slab One", serif;
+            font-size: 15px;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            position: relative;
+            top: -40px;
+        }
+        #login-button a {
+            color: white;
+        }
+        .container{
+            padding: 100px;
+            text-align: center;
+        }
+        #title-heading{
+            position: relative;
+            font-size: 50px;
+            font-family: 'Rubik Moonrocks', sans-serif;
+            display: inline-block;
+            z-index: 20;
+        }
+
+        #project-description{
+            font-family: 'Tangerine', cursive;
+            padding-bottom: 10px;
+            font-size: 40px;
+            top: -60px;
+            position: relative;
+
+        }
+        span.change-color {
+            color: green 
+        }
+        span.center {
+            color: white; 
+        }
+
+        #music-orb{
+            position: relative;
+            margin: 0 auto;
+            width: 200px; /* Adjust size as needed */
+            height: 200px; /* Same as width for a perfect circle */
+            background-color: transparent; /* Background color */
+            top: -70px;
+            background-size: cover;
+            background-position: left;  
+            border-radius: 50%; /* Makes it round */
+            z-index: 1000;
+        }
+
+        .background-music-orb{
+            position: absolute;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: left;
+            z-index: -1000;
+            transition: background-image 0.5s ease-in-out;
+            animation: bounce 2s ease-in-out infinite;
+            opacity: 0.3;
+        }
+
+        #cursor-text{
+            display: block;
+            position: relative;
+            color: #defad8;
+            font-family: "Old Standard TT", serif;
+            font-weight: 400;
+            padding: 5px;
+            font-size: 13px;
+            transition: background-image 0.5s ease-in-out;
+        }
+
+        #cursor-text span{
+            font-style: italic;
+        }
+
+        .smooth-transition {
+            transition: background-image 1s ease-in-out; /* Adjust duration and easing as needed */
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+    <div style = "z-index: -10;" id="water"></div>
+    <div style = "z-index: 10;" class="container">
+        <p style = "z-index: 15;" id = "title-heading"> play with music </p>
+        <p id = "project-description">Visualize playlists using d3.js, sign in to your Spotify account below !! </p>
+        <div id = "music-orb"></div>
+        <div style = "z-index: 15; width: fit-content;" id = "cursor-text"></div>
+        <button style = "z-index: 100;" id = "login-button"><a href ='/login'>Login to Spotify</a></button>
+    </div>
+    <script> 
+        document.addEventListener("DOMContentLoaded", function() {
+            musicImages = ['28.7.albumcovers-1.png','28.7.albumcovers-2.png','28.7.albumcovers-3.png','28.7.albumcovers-4.png','28.7.albumcovers-5.png','28.7.albumcovers-6.png','28.7.albumcovers-7.png','28.7.albumcovers-8.png','28.7.albumcovers-9.png','28.7.albumcovers-10.png','28.7.albumcovers-11.png','28.7.albumcovers-14.png','28.7.albumcovers-14.png'];
+            musicTitles = ['The Velvet Underground and Nico', 'Disraeli Gears', 'Abbey Road', 'Sticky Fingers', 'Dark Side of the Moon', 'House of the Holy', 'Never Mind The Bollocks Here’s The Sex Pistols', 'London Calling', 'Nevermind', 'Corazon', 'In The Wee Small Hours', 'Innervisions', 'Wish You Were Here'];
+            let currentIndex = 0;
+            const musicOrb = document.getElementById('music-orb');
+            const cursorText = document.getElementById('cursor-text');
+
+            let lastMouseX = window.innerWidth / 2;
+            let lastMouseY = window.innerHeight / 2;
+            function preloadImages() {
+                for (let i = 0; i < musicImages.length; i++) {
+                    const img = new Image();
+                    img.src = `../static/media/${musicImages[i]}`;
+                    img.alt = `${musicTitles}`;
+                }
+            }
+
+            preloadImages();
+
+            function backgroundCircles() {
+                const bodyWidth = window.innerWidth;
+                const bodyHeight = window.innerHeight;
+                const circleDiameter = bodyWidth * 0.05;
+
+                const cols = Math.floor(bodyWidth / circleDiameter);
+                const rows = Math.floor(bodyHeight / circleDiameter);
+
+                // Create and position circles
+                for (let row = 0; row < rows; row++) {
+                    for (let col = 0; col < cols; col++) {
+                    const backgroundOrb = document.createElement('div');
+                    backgroundOrb.classList.add('background-music-orb');
+                    backgroundOrb.style.width = `${circleDiameter}px`;
+                    backgroundOrb.style.height = `${circleDiameter}px`;
+                    
+                    // Set the image URL for the background of the circle
+                    // circle.style.backgroundImage = 'url(your-image-url-here)';
+
+                    // Calculate position
+                    const xOffset = col * (circleDiameter + (circleDiameter));
+                    const yOffset = row * (circleDiameter + (circleDiameter));
+                    
+                    // Zigzag pattern: offset odd rows by half the diameter
+                    if (row % 2 === 1) {
+                        backgroundOrb.style.left = `${xOffset + (circleDiameter)}px`;
+                    } else {
+                        backgroundOrb.style.left = `${xOffset}px`;
+                    }
+                    backgroundOrb.style.top = `${yOffset}px`;
+
+                    // Append the circle to the body
+                    document.body.appendChild(backgroundOrb);
+                    }
+                }
+            }
+            backgroundCircles();
+            // window.onload = backgroundCircles;
+            // window.onresize = backgroundCircles;
+
+            // setInterval(function() {
+            //     musicOrb.classList.add("smooth-transition"); 
+            //     musicOrb.style.backgroundImage = `url("../static/media/${musicImages[currentIndex]}")`;
+            //     cursorText.innerHTML = `[ <span>${musicTitles[currentIndex]}</span> ]`;
+            //     [...document.querySelectorAll('.background-music-orb')].forEach((each_orb)=>{
+            //         each_orb.style.backgroundImage = `url("../static/media/${musicImages[currentIndex]}")`;
+            //     });
+            //     currentIndex = (currentIndex + 1) % musicImages.length;
+            // }, 2000);
+
+            let distances;
+            function updateOrbs(event = null) {
+                musicOrb.classList.add("smooth-transition");
+                musicOrb.style.backgroundImage = `url("../static/media/${musicImages[currentIndex]}")`;
+                cursorText.innerHTML = `[ <span>${musicTitles[currentIndex]}</span> ]`;
+                const orbs = [...document.querySelectorAll('.background-music-orb')];
+
+                // Update distances based on last known mouse position
+                distances = orbs.map(orb => {
+                    const orbRect = orb.getBoundingClientRect();
+                    const orbX = orbRect.left + orbRect.width / 2;
+                    const orbY = orbRect.top + orbRect.height / 2;
+                    const distance = Math.sqrt(Math.pow(orbX - lastMouseX, 2) + Math.pow(orbY - lastMouseY, 2));
+                    return { orb, distance };
+                });
+
+                // Sort distances based on the current mouse position
+                distances.sort((a, b) => a.distance - b.distance);
+
+                const minDistance = Math.min(...distances.map(d => d.distance));
+                const maxDistance = Math.max(...distances.map(d => d.distance));
+                const totalDuration = 2000; // in milliseconds
+
+                // Apply background image changes with delays based on distance
+                distances.forEach((item, index) => {
+                    const normalizedDistance = (item.distance - minDistance) / (maxDistance - minDistance);
+                    const delay = normalizedDistance * totalDuration;
+                    setTimeout(() => {
+                        item.orb.style.backgroundImage = `url("../static/media/${musicImages[currentIndex]}")`;
+                    }, delay);
+                });
+
+                currentIndex = (currentIndex + 1) % musicImages.length;        
+            }
+    
+
+            document.addEventListener('mousemove', function(event) {
+                var x = event.pageX - 100;
+                var y = event.pageY-600;
+                cursorText.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+                lastMouseX = event.clientX;
+                lastMouseY = event.clientY;
+            });
+
+            setInterval(updateOrbs, 2500);
+
+
+            const titleHeading = document.getElementById('title-heading');
+            const characters = titleHeading.textContent.split('');
+            titleHeading.innerHTML = characters.map(char => `<span>${char}</span>`).join('');
+
+            const spans = titleHeading.querySelectorAll('span');
+            spans.forEach(span => {
+                span.addEventListener('mouseover', function() {
+                    pushLetters(span);
+                });
+            });
+            
+            function pushLetters(targetSpan) {
+                const index = Array.from(spans).indexOf(targetSpan);
+                const leftIndex = Math.max(0, index - 1);
+                const rightIndex = Math.min(characters.length - 1, index + 1);
+                spans[index].classList.add('center');
+                spans[leftIndex].classList.add('change-color');
+                spans[rightIndex].classList.add('change-color');
+
+                // Remove the CSS class after a short delay
+                setTimeout(() => {
+                    spans[leftIndex].classList.remove('change-color');
+                    spans[rightIndex].classList.remove('change-color');
+                    spans[index].classList.remove('center');
+                }, 500); // Adjust the delay as needed
+            }
+            const water = document.getElementById('water');
+            const body = document.body; // Reference to the document body
+            // water.addEventListener("mouseover",function(event) {
+            //     createRipple(event.clientX, event.clientY);
+            // });
+            // water.addEventListener("click",function(event) {
+            //     createRipple(event.clientX, event.clientY);
+            // });
+            // function createRipple(x, y) {
+            //     const rippleContainer = document.createElement("div");
+            //     rippleContainer.classList.add("ripple-container");
+            //     body.appendChild(rippleContainer);
+
+            //     for (let i = 0; i < 5; i++) {
+            //         const ripple = document.createElement("span");
+            //         setTimeout(()=>{
+            //             ripple.classList.add("ripple");
+            //             ripple.style.left = x + "px";
+            //             ripple.style.top = y + "px";
+            //             water.appendChild(ripple);
+            //         }, i*100)
+                    
+            //         setTimeout(() => {
+            //             ripple.remove();
+            //         }, i*500);
+            //     } 
+            //     setTimeout(() => {
+            //         rippleContainer.remove();
+            //     }, 1500); // Adjust the duration of the ripple effect
+            // }
+    });
+    </script>
+</body>
+</html>
