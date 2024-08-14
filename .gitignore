@@ -1,1 +1,3 @@
 sp-env/
+venv/
+.env

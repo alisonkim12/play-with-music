@@ -102,7 +102,7 @@ def preprocessing_lyrics(): #(song_data, playlist_num)
         preprocessed_lyrics_data.append(lyrics_info)
     # print(preprocessed_lyrics_data)
 
-    relative_path = os.path.join("data", "playlist-5-processed_lyrics.csv")
+    relative_path = os.path.join("static/data", "playlist-5-processed_lyrics.csv")
     #    relative_path = os.path.join("data", "playlist-"+ str(playlist_num)+ "-processed_lyrics.csv")
 
     with open(relative_path, mode='w', newline='', encoding='utf-8') as file:

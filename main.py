@@ -195,13 +195,13 @@ def get_playlists():
     with open("./static/tracks.json", 'w', encoding = 'utf-8') as json_file:
         json.dump(master_dataset, json_file, ensure_ascii = False, indent=4)
 
-    for i in range(5):
-        from lyrics import preprocessing_lyrics
-        preprocessing_lyrics(song_title_list["playlist-" + str(i+1)], (i+1))
+    # for i in range(5):
+    #     from lyrics import preprocessing_lyrics
+    #     preprocessing_lyrics(song_title_list["playlist-" + str(i+1)], (i+1))
 
-    for i in range(5):
-        from testingbert import analyzing_song_lyrics
-        analyzing_song_lyrics((i+1))
+    # for i in range(5):
+    #     from lyricanalysis import analyzing_song_lyrics
+    #     analyzing_song_lyrics((i+1))
 
     return render_template('playlists.html')
 

@@ -23,7 +23,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 def analyzing_song_lyrics(playlist_num):
     paragraphs_array = []
     song_title_artist_array = []
-    file_path = 'data/' + "playlist-"+ str(playlist_num)+ "-processed_lyrics.csv"
+    file_path = '/static/data/' + "playlist-"+ str(playlist_num)+ "-processed_lyrics.csv"
 
     with open(file_path, mode='r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
@@ -124,7 +124,7 @@ def analyzing_song_lyrics(playlist_num):
     data_full = np.append(data_1, data_2, axis=1)
 
     # print(data)
-    folder_name = "data"
+    folder_name = "static/data"
     file_name = "playlist-" + str(playlist_num) + "-lyric-plot-data.csv"
     relative_path = os.path.join(folder_name, file_name)
     if not os.path.exists(folder_name):
