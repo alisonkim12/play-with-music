@@ -189,12 +189,12 @@ function generateLyricsPlot(playlist_number, playlist_title, song_numbers) {
                             type: 'linear',
                             position: 'bottom',
                             min: minX,
-                            max: maxX // Adjust as needed
+                            max: maxX 
                         },
                         y: {
                             type: 'linear',
                             min: minY,
-                            max: maxY // Adjust as needed
+                            max: maxY 
                         }
                     },
                     plugins: {
@@ -204,18 +204,15 @@ function generateLyricsPlot(playlist_number, playlist_title, song_numbers) {
                     },
                     elements: {
                         point: {
-                            radius: 0 // Ensure no points are displayed
+                            radius: 0 
                         }
                     }
                 }
             };
         
-
-            // Check if the canvas element already has a chart instance
             if (areaCanvas.chart) {
                 areaCanvas.chart.destroy();
             }
-            // Create new chart and associate it with the canvas element
             areaCanvas.chart = new Chart(areaCanvas, config);
         }
 
@@ -235,7 +232,7 @@ function generateLyricsPlot(playlist_number, playlist_title, song_numbers) {
             data: doughnutData,
             options: {
                 responsive: true,
-                cutout: '40%', // Adjust the size of the hole in the middle (optional)
+                cutout: '40%', 
                 plugins: {
                     legend: {
                         position: 'bottom', // Position of the legend
@@ -257,16 +254,7 @@ function generateLyricsPlot(playlist_number, playlist_title, song_numbers) {
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        // let currentTransform = d3.zoomIdentity; // Initialize to identity transformation
-        // Define zoom behavior
-        // const zoom = d3.zoom()
-        //     .scaleExtent([-0.001, 100]) // Set the zoom scale limits
-        //     .on('zoom', zoomed);
-
-        // Apply zoom behavior to the SVG container
-        // scatter_svg.call(zoom);
-
-        
+      
         let new_xScale = xScale; 
         let new_yScale = yScale;
         const xAxis = d3.axisBottom(xScale).ticks(12);
@@ -296,24 +284,14 @@ function generateLyricsPlot(playlist_number, playlist_title, song_numbers) {
             tooltip.select("#cluster-string").style("color", colorScheme[d.cluster]);
             tooltip.select("#lyrics-song-name").text(d['song-title'] + ", ");
             tooltip.select("#lyrics-artist-name").text(d['song-artist']);
-            // tooltip.select("#lyric-cosine-similarity-score").text(d['cosine-similarity-score']);
             updateProgressBar(d.x, xScale(maxX), 0);
             updateProgressBar(d.y, yScale(minY), 1);
             updateProgressBar(d['confidence-level'], 1, 2);
             createSongAreaChart(d['song-title'],d.x, d.y);
             updateCircleProgressBar(d['cosine-similarity-score'], d.cluster);
-            // tooltip
-            //     .style("left", (d3.mouse(this)[0]+90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
-            //     .style("top", (d3.mouse(this)[1]) + "px")
+            
         }
-        
-        // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
-        // var mouseleave = function(d) {
-        //     tooltip
-        //         .transition()
-        //         .duration(200)
-        //         .style("opacity", 0)
-        // }
+    
 
         // Define drag behavior
         var lyricDrag = d3.drag()
@@ -321,30 +299,9 @@ function generateLyricsPlot(playlist_number, playlist_title, song_numbers) {
             .on("drag", dragged)
             .on("end", dragended);
 
-        // function dragstarted(event, d) {
-        //     if (!event.active) lyricSimulation.alphaTarget(0.3).restart();
-        //     d.fx = d.x;
-        //     d.fy = d.y;
-        // }
-
-        // function dragged(event, d) {
-        //     d.fx = xScale.invert(event.x);
-        //     d.fy = yScale.invert(event.y);
-        // }
-
-        // function dragended(event, d) {
-        //     if (!event.active) lyricSimulation.alphaTarget(0);
-        //     d.fx = null;
-        //     d.fy = null;
-        // }
 
         function dragstarted(d) {
-            //your alpha hit 0 it stops! make it run again
             lyricSimulation.alphaTarget(0.3).restart();
-            // d.fx = d3.event.x;
-            // d.fy = d3.event.y;
-            // d.fx = currentTransform.rescaleX(xScale).invert(d3.event.x);
-            // d.fy = currentTransform.rescaleY(yScale).invert(d3.event.y);
             d.fx = d.x;
             d.fy = d.y;
         }
@@ -352,10 +309,7 @@ function generateLyricsPlot(playlist_number, playlist_title, song_numbers) {
         function dragged(d) {
             d.fx = d3.event.x;
             d.fy = d3.event.y;
-            // d.fx = currentTransform.rescaleX(xScale).invert(d3.event.x);
-            // d.fy = currentTransform.rescaleY(yScale).invert(d3.event.y);
-            // d.fx = new_xScale.invert(d3.event.x);
-            // d.fy = new_yScale.invert(d3.event.y);
+           
         }
         
         function dragended(d) {
@@ -394,20 +348,6 @@ function generateLyricsPlot(playlist_number, playlist_title, song_numbers) {
                 .attr("cy", function (d) { return (d.y); });
         }
 
-        // Zoom function
-        // function zoomed() {
-        //     // currentTransform = event.transform;
-        //     const new_xScale = currentTransform.rescaleX(xScale);
-        //     const new_yScale = currentTransform.rescaleY(yScale);
-        //     // const { transform } = d3.event;
-        //     // const new_xScale = transform.rescaleX(xScale);
-        //     // const new_yScale = transform.rescaleY(yScale);
-        //     scatter_svg.select(".x-axis").call(xAxis.scale(new_xScale));
-        //     scatter_svg.select(".y-axis").call(yAxis.scale(new_yScale));
-        //     scatter_svg.selectAll(".circle-sentences")
-        //         .attr("cx", function (d) { return new_xScale(d.x); })
-        //         .attr("cy", function (d) { return new_yScale(d.y); });
-        // }
     });
 
 }

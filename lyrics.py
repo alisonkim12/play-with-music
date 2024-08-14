@@ -5,12 +5,7 @@ import csv
 import os
 import time
 from dotenv import load_dotenv
-# import numpy as np
-# from nltk.tokenize import word_tokenize
-# import importlib
-# import importlib_metadata as metadata
-# importlib.metadata = metadata
-# from bertopic import BERTopic
+
 
 def preprocessing_lyrics(song_data, playlist_num): #(song_data, playlist_num) 
 
@@ -39,9 +34,8 @@ def preprocessing_lyrics(song_data, playlist_num): #(song_data, playlist_num)
             return None
 
     # Array of song titles
-    # song_data = my_array['playlist-'+ str(playlist_num)]
-
-    song_data = my_array['playlist-5']
+    song_data = my_array['playlist-'+ str(playlist_num)]
+    #song_data = my_array['playlist-5']
     
     # Fetch lyrics for each song title
     lyrics_data = []
@@ -54,11 +48,6 @@ def preprocessing_lyrics(song_data, playlist_num): #(song_data, playlist_num)
                 'song-lyrics': lyrics
             }
             lyrics_data.append(lyrics_info)
-
-    # relative_path = os.path.join("data", "full_lyrics.txt") # creating full_lyrics.txt was just for testing... get rid during final
-    # with open(relative_path, 'w') as file:
-    #         for lyrics in lyrics_data:
-    #             file.write(lyrics + '\n')
 
     # #Processing lyrics for model training
     def preprocess_lyrics(lyrics):
@@ -102,8 +91,8 @@ def preprocessing_lyrics(song_data, playlist_num): #(song_data, playlist_num)
         preprocessed_lyrics_data.append(lyrics_info)
     # print(preprocessed_lyrics_data)
 
-    relative_path = os.path.join("static/data", "playlist-5-processed_lyrics.csv")
-    #    relative_path = os.path.join("data", "playlist-"+ str(playlist_num)+ "-processed_lyrics.csv")
+    #relative_path = os.path.join("static/data", "playlist-5-processed_lyrics.csv")
+    relative_path = os.path.join("data", "playlist-"+ str(playlist_num)+ "-processed_lyrics.csv")
 
     with open(relative_path, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=["song-title", "song-artist", "song-lyrics"])

@@ -1,10 +1,6 @@
 var tracks_data; 
 var little_tracks_data;
 
-// const meterLights = document.querySelectorAll('.meter-buttons .ri-alarm-warning-fill');
-// const meterButtons = document.querySelectorAll('.meter-buttons .btn');
-// const meterNeedle = document.querySelectorAll('.needle');
-
 async function loadLocalizedData() {
     try {
       const response = await fetch('../static/tracks.json');

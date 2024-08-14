@@ -89,13 +89,13 @@
         #music-orb{
             position: relative;
             margin: 0 auto;
-            width: 200px; /* Adjust size as needed */
-            height: 200px; /* Same as width for a perfect circle */
-            background-color: transparent; /* Background color */
+            width: 200px; 
+            height: 200px; 
+            background-color: transparent; 
             top: -70px;
             background-size: cover;
             background-position: left;  
-            border-radius: 50%; /* Makes it round */
+            border-radius: 50%; 
             z-index: 1000;
         }
 
@@ -126,7 +126,7 @@
         }
 
         .smooth-transition {
-            transition: background-image 1s ease-in-out; /* Adjust duration and easing as needed */
+            transition: background-image 1s ease-in-out;
         }
         @keyframes bounce {
             0%, 100% {
@@ -181,14 +181,10 @@
                     backgroundOrb.style.width = `${circleDiameter}px`;
                     backgroundOrb.style.height = `${circleDiameter}px`;
                     
-                    // Set the image URL for the background of the circle
-                    // circle.style.backgroundImage = 'url(your-image-url-here)';
-
                     // Calculate position
                     const xOffset = col * (circleDiameter + (circleDiameter));
                     const yOffset = row * (circleDiameter + (circleDiameter));
                     
-                    // Zigzag pattern: offset odd rows by half the diameter
                     if (row % 2 === 1) {
                         backgroundOrb.style.left = `${xOffset + (circleDiameter)}px`;
                     } else {
@@ -196,25 +192,12 @@
                     }
                     backgroundOrb.style.top = `${yOffset}px`;
 
-                    // Append the circle to the body
                     document.body.appendChild(backgroundOrb);
                     }
                 }
             }
             backgroundCircles();
-            // window.onload = backgroundCircles;
-            // window.onresize = backgroundCircles;
-
-            // setInterval(function() {
-            //     musicOrb.classList.add("smooth-transition"); 
-            //     musicOrb.style.backgroundImage = `url("../static/media/${musicImages[currentIndex]}")`;
-            //     cursorText.innerHTML = `[ <span>${musicTitles[currentIndex]}</span> ]`;
-            //     [...document.querySelectorAll('.background-music-orb')].forEach((each_orb)=>{
-            //         each_orb.style.backgroundImage = `url("../static/media/${musicImages[currentIndex]}")`;
-            //     });
-            //     currentIndex = (currentIndex + 1) % musicImages.length;
-            // }, 2000);
-
+            
             let distances;
             function updateOrbs(event = null) {
                 musicOrb.classList.add("smooth-transition");
@@ -289,35 +272,7 @@
                 }, 500); // Adjust the delay as needed
             }
             const water = document.getElementById('water');
-            const body = document.body; // Reference to the document body
-            // water.addEventListener("mouseover",function(event) {
-            //     createRipple(event.clientX, event.clientY);
-            // });
-            // water.addEventListener("click",function(event) {
-            //     createRipple(event.clientX, event.clientY);
-            // });
-            // function createRipple(x, y) {
-            //     const rippleContainer = document.createElement("div");
-            //     rippleContainer.classList.add("ripple-container");
-            //     body.appendChild(rippleContainer);
-
-            //     for (let i = 0; i < 5; i++) {
-            //         const ripple = document.createElement("span");
-            //         setTimeout(()=>{
-            //             ripple.classList.add("ripple");
-            //             ripple.style.left = x + "px";
-            //             ripple.style.top = y + "px";
-            //             water.appendChild(ripple);
-            //         }, i*100)
-                    
-            //         setTimeout(() => {
-            //             ripple.remove();
-            //         }, i*500);
-            //     } 
-            //     setTimeout(() => {
-            //         rippleContainer.remove();
-            //     }, 1500); // Adjust the duration of the ripple effect
-            // }
+            const body = document.body; 
     });
     </script>
 </body>

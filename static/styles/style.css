@@ -5,9 +5,9 @@ body {
     padding: 0;
     height: 100vh;
     /* overflow: hidden; */
-    background-size: 125% 125%; /* Ensure the gradient fills the entire background */
+    background-size: 125% 125%; 
     background-image: radial-gradient(circle, #86e8bf, #ffffff);
-    animation: gradientTransition 5s infinite alternate ease-in-out; /* Adj 5s infinite alternate; /* Adjust timing as needed */
+    animation: gradientTransition 5s infinite alternate ease-in-out; 
     display: flex;
     position: relative;
 }

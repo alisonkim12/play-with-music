@@ -60,21 +60,6 @@ def analyzing_song_lyrics(playlist_num):
     topic_freq = defaultdict(int)
     for cluster in clusters:
         topic_freq[cluster] += 1
-
-    # cluster_top_words = {}
-    # for i in range(k):
-    #     cluster_text = [tokenized_sentences[j] for j in range(len(tokenized_sentences)) if clusters[j] == i]
-    #     cluster_text = ' '.join(cluster_text)
-    #     cluster_words = word_tokenize(cluster_text)
-    #     cluster_word_counts = Counter(cluster_words)
-    #     top_words = cluster_word_counts.most_common(3)
-    #     top_words = [word for word, _ in top_words]
-    #     cluster_identifier = '-'.join(top_words)
-    #     cluster_top_words[i] = cluster_identifier
-
-    # # Display custom identifiers for each cluster
-    # for cluster, identifier in cluster_top_words.items():
-    #     print(f"Cluster {cluster}: {identifier}")
         
     lda = LatentDirichletAllocation(n_components=15, random_state=42)
     lda.fit(X)
@@ -89,10 +74,6 @@ def analyzing_song_lyrics(playlist_num):
         identifier = '-'.join(top_words)
         cluster_identifiers[i] = identifier
 
-    # Display cluster identifiers
-    # for cluster, identifier in cluster_identifiers.items():
-    #     print(f"Cluster {cluster}: {identifier}")
-
     # PCA for dimensionality reduction
     pca = PCA(n_components=2)
     X_pca = pca.fit_transform(X.toarray())
@@ -100,14 +81,6 @@ def analyzing_song_lyrics(playlist_num):
     #KMeans clustering
     kmeans = KMeans(n_clusters=15)
     kmeans.fit(X_pca)
-
-    # Scatter plot
-    # plt.figure(figsize=(8, 6))
-
-    # # Plot each point with its cluster's color
-    # plt.scatter(X_pca[:, 0], X_pca[:, 1], c=kmeans.labels_, cmap='viridis', s=5, alpha=0.7)
-
-    # plt.show() 
 
     centroids = kmeans.cluster_centers_
     cosine_similarities = cosine_similarity(X_pca, centroids)
@@ -160,8 +133,8 @@ def analyzing_song_lyrics(playlist_num):
         for song in final_data:
             writer.writerow(song)
 
-analyzing_song_lyrics(1)
-analyzing_song_lyrics(2)
-analyzing_song_lyrics(3)
-analyzing_song_lyrics(4)
-analyzing_song_lyrics(5)
+# analyzing_song_lyrics(1)
+# analyzing_song_lyrics(2)
+# analyzing_song_lyrics(3)
+# analyzing_song_lyrics(4)
+# analyzing_song_lyrics(5)

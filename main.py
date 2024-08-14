@@ -189,8 +189,8 @@ def get_playlists():
     master_dataset = {
         "playlists" : playlist_list
     }
-    # with open('./static/track_list.json', 'w', encoding = 'utf-8') as json_file:
-    #     json.dump(song_title_list, json_file, ensure_ascii = False)
+    with open('./static/track_list.json', 'w', encoding = 'utf-8') as json_file:
+        json.dump(song_title_list, json_file, ensure_ascii = False)
 
     with open("./static/tracks.json", 'w', encoding = 'utf-8') as json_file:
         json.dump(master_dataset, json_file, ensure_ascii = False, indent=4)
